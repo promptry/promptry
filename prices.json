@@ -1,6 +1,6 @@
 {
-  "version": "2026-09-27",
-  "updated": "2026-09-27T11:57:44Z",
+  "version": "2026-09-28",
+  "updated": "2026-09-28T13:46:48Z",
   "source": "litellm",
   "mode": "replace",
   "rates": {
@@ -951,6 +951,12 @@
       "cached": 0.049999999999999996,
       "cache_write": 0.09999999999999999,
       "out": 0.0
+    },
+    "MAI-Cyber-1-Flash": {
+      "in": 0.6,
+      "cached": 0.06,
+      "cache_write": 0.6,
+      "out": 3.5
     },
     "MAI-DS-R1": {
       "in": 1.35,
@@ -7498,6 +7504,12 @@
       "cache_write": 0.19999999999999998,
       "out": 0.78
     },
+    "azure_ai/MAI-Cyber-1-Flash": {
+      "in": 0.6,
+      "cached": 0.06,
+      "cache_write": 0.6,
+      "out": 3.5
+    },
     "azure_ai/MAI-DS-R1": {
       "in": 1.35,
       "cached": 0.675,
@@ -7967,9 +7979,9 @@
       "out": 2.5
     },
     "azure_ai/grok-4.6": {
-      "in": 2.0,
+      "in": 1.25,
       "cached": 0.5,
-      "cache_write": 2.0,
+      "cache_write": 1.25,
       "out": 6.0
     },
     "azure_ai/grok-code-fast-1": {
@@ -12959,10 +12971,10 @@
       "out": 0.42
     },
     "deepseek-chat-v3-0324": {
-      "in": 0.25,
-      "cached": 0.125,
-      "cache_write": 0.25,
-      "out": 1.0
+      "in": 0.29,
+      "cached": 0.11,
+      "cache_write": 0.29,
+      "out": 1.1400000000000001
     },
     "deepseek-chat-v3.1": {
       "in": 0.25,
@@ -13337,10 +13349,10 @@
       "out": 3.9600000000000004
     },
     "deepseek-v4.1-flash": {
-      "in": 0.035,
-      "cached": 0.001,
-      "cache_write": 0.035,
-      "out": 0.29
+      "in": 0.03483,
+      "cached": 0.03135,
+      "cache_write": 0.03483,
+      "out": 0.6
     },
     "deepseek-v4.1-flash:batch": {
       "in": 0.112,
@@ -13391,10 +13403,10 @@
       "out": 0.42
     },
     "deepseek/deepseek-chat-v3-0324": {
-      "in": 0.25,
-      "cached": 0.125,
-      "cache_write": 0.25,
-      "out": 1.0
+      "in": 0.29,
+      "cached": 0.11,
+      "cache_write": 0.29,
+      "out": 1.1400000000000001
     },
     "deepseek/deepseek-chat-v3.1": {
       "in": 0.25,
@@ -13559,16 +13571,16 @@
       "out": 3.9600000000000004
     },
     "deepseek/deepseek-v4-pro-0813": {
-      "in": 0.24760000000000001,
-      "cached": 0.24750000000000003,
-      "cache_write": 0.24760000000000001,
+      "in": 0.24298000000000003,
+      "cached": 0.17200000000000001,
+      "cache_write": 0.24298000000000003,
       "out": 3.5
     },
     "deepseek/deepseek-v4.1-flash": {
-      "in": 0.035,
-      "cached": 0.001,
-      "cache_write": 0.035,
-      "out": 0.29
+      "in": 0.03483,
+      "cached": 0.03135,
+      "cache_write": 0.03483,
+      "out": 0.6
     },
     "deepseek/deepseek-v4.1-flash:batch": {
       "in": 0.112,
@@ -20615,9 +20627,9 @@
       "out": 6.0
     },
     "grok-4.6": {
-      "in": 2.0,
+      "in": 1.25,
       "cached": 0.5,
-      "cache_write": 2.0,
+      "cache_write": 1.25,
       "out": 6.0
     },
     "grok-4.7": {
@@ -29021,16 +29033,16 @@
       "out": 0.0
     },
     "openrouter/deepseek/deepseek-chat": {
-      "in": 0.32,
-      "cached": 0.16,
-      "cache_write": 0.32,
-      "out": 0.8899999999999999
+      "in": 0.2574,
+      "cached": 0.1287,
+      "cache_write": 0.2574,
+      "out": 1.0287
     },
     "openrouter/deepseek/deepseek-chat-v3-0324": {
-      "in": 0.25,
-      "cached": 0.125,
-      "cache_write": 0.25,
-      "out": 1.0
+      "in": 0.29,
+      "cached": 0.11,
+      "cache_write": 0.29,
+      "out": 1.1400000000000001
     },
     "openrouter/deepseek/deepseek-chat-v3.1": {
       "in": 0.25,
@@ -29063,10 +29075,10 @@
       "out": 1.0
     },
     "openrouter/deepseek/deepseek-v3.2": {
-      "in": 0.26899999999999996,
-      "cached": 0.13449999999999998,
-      "cache_write": 0.26899999999999996,
-      "out": 0.39999999999999997
+      "in": 0.28,
+      "cached": 0.028,
+      "cache_write": 0.28,
+      "out": 0.42
     },
     "openrouter/deepseek/deepseek-v3.2-exp": {
       "in": 0.27,
@@ -29075,10 +29087,10 @@
       "out": 0.41
     },
     "openrouter/deepseek/deepseek-v4-flash": {
-      "in": 0.047040000000000005,
-      "cached": 0.009408000000000001,
-      "cache_write": 0.047040000000000005,
-      "out": 0.09408000000000001
+      "in": 0.14,
+      "cached": 0.028,
+      "cache_write": 0.14,
+      "out": 0.28
     },
     "openrouter/deepseek/deepseek-v4-flash-0731": {
       "in": 0.020999999999999998,
@@ -29087,28 +29099,28 @@
       "out": 0.32
     },
     "openrouter/deepseek/deepseek-v4-flash-vision-exp": {
-      "in": 0.22,
-      "cached": 0.007,
-      "cache_write": 0.22,
-      "out": 0.66
+      "in": 0.44,
+      "cached": 0.014,
+      "cache_write": 0.44,
+      "out": 1.32
     },
     "openrouter/deepseek/deepseek-v4-pro": {
-      "in": 0.348,
-      "cached": 0.029,
-      "cache_write": 0.348,
-      "out": 0.696
+      "in": 0.9483,
+      "cached": 0.079025,
+      "cache_write": 0.9483,
+      "out": 1.8966
     },
     "openrouter/deepseek/deepseek-v4-pro-0813": {
-      "in": 0.24760000000000001,
-      "cached": 0.24750000000000003,
-      "cache_write": 0.24760000000000001,
+      "in": 0.24298000000000003,
+      "cached": 0.17200000000000001,
+      "cache_write": 0.24298000000000003,
       "out": 3.5
     },
     "openrouter/deepseek/deepseek-v4.1-flash": {
-      "in": 0.035,
-      "cached": 0.001,
-      "cache_write": 0.035,
-      "out": 0.29
+      "in": 0.03483,
+      "cached": 0.03135,
+      "cache_write": 0.03483,
+      "out": 0.6
     },
     "openrouter/deepseek/deepseek-v4.1-flash:batch": {
       "in": 0.112,
@@ -29621,10 +29633,10 @@
       "out": 1.08
     },
     "openrouter/minimax/minimax-m2.7": {
-      "in": 0.21,
-      "cached": 0.041999999999999996,
-      "cache_write": 0.21,
-      "out": 0.84
+      "in": 0.3,
+      "cached": 0.06,
+      "cache_write": 0.3,
+      "out": 1.2
     },
     "openrouter/minimax/minimax-m2.7:free": {
       "in": 0.0,
@@ -30713,10 +30725,10 @@
       "out": 1.0
     },
     "openrouter/qwen/qwen3-14b": {
-      "in": 0.12,
-      "cached": 0.06,
-      "cache_write": 0.12,
-      "out": 0.24
+      "in": 0.22749999999999998,
+      "cached": 0.11374999999999999,
+      "cache_write": 0.22749999999999998,
+      "out": 0.9099999999999999
     },
     "openrouter/qwen/qwen3-235b-a22b": {
       "in": 0.45499999999999996,
@@ -30875,10 +30887,10 @@
       "out": 1.56
     },
     "openrouter/qwen/qwen3.5-35b-a3b": {
-      "in": 0.3125,
+      "in": 0.1625,
       "cached": 0.15625,
-      "cache_write": 0.3125,
-      "out": 1.25
+      "cache_write": 0.1625,
+      "out": 1.3
     },
     "openrouter/qwen/qwen3.5-397b-a17b": {
       "in": 0.55,
@@ -31379,10 +31391,10 @@
       "out": 4.0
     },
     "openrouter/z-ai/glm-5.1": {
-      "in": 0.9646,
-      "cached": 0.17914,
+      "in": 1.4,
+      "cached": 0.26,
       "cache_write": 0.0,
-      "out": 3.0316
+      "out": 4.4
     },
     "openrouter/z-ai/glm-5.2": {
       "in": 0.6496,
@@ -31397,15 +31409,15 @@
       "out": 0.0
     },
     "openrouter/z-ai/glm-5.3": {
-      "in": 0.238,
-      "cached": 0.0391,
-      "cache_write": 0.238,
-      "out": 0.748
+      "in": 0.35559999999999997,
+      "cached": 0.06604,
+      "cache_write": 0.35559999999999997,
+      "out": 2.574
     },
     "openrouter/z-ai/glm-5.3-flash": {
-      "in": 0.04,
-      "cached": 0.015,
-      "cache_write": 0.04,
+      "in": 0.15,
+      "cached": 0.03,
+      "cache_write": 0.15,
       "out": 0.5
     },
     "openrouter/z-ai/glm-5.3-flash:batch": {
@@ -32765,10 +32777,10 @@
       "out": 0.7999999999999999
     },
     "qwen/qwen3-14b": {
-      "in": 0.12,
-      "cached": 0.06,
-      "cache_write": 0.12,
-      "out": 0.24
+      "in": 0.22749999999999998,
+      "cached": 0.11374999999999999,
+      "cache_write": 0.22749999999999998,
+      "out": 0.9099999999999999
     },
     "qwen/qwen3-235b-a22b": {
       "in": 0.45499999999999996,
@@ -33023,10 +33035,10 @@
       "out": 1.56
     },
     "qwen/qwen3.5-35b-a3b": {
-      "in": 0.3125,
+      "in": 0.1625,
       "cached": 0.15625,
-      "cache_write": 0.3125,
-      "out": 1.25
+      "cache_write": 0.1625,
+      "out": 1.3
     },
     "qwen/qwen3.5-397b-a17b": {
       "in": 0.55,
@@ -33749,10 +33761,10 @@
       "out": 1.56
     },
     "qwen3.5-35b-a3b": {
-      "in": 0.3125,
+      "in": 0.1625,
       "cached": 0.15625,
-      "cache_write": 0.3125,
-      "out": 1.25
+      "cache_write": 0.1625,
+      "out": 1.3
     },
     "qwen3.5-397b-a17b": {
       "in": 0.55,
@@ -40571,10 +40583,10 @@
       "out": 4.0
     },
     "z-ai/glm-5.1": {
-      "in": 0.9646,
-      "cached": 0.17914,
+      "in": 1.4,
+      "cached": 0.26,
       "cache_write": 0.0,
-      "out": 3.0316
+      "out": 4.4
     },
     "z-ai/glm-5.2": {
       "in": 0.6496,
@@ -40589,15 +40601,15 @@
       "out": 0.0
     },
     "z-ai/glm-5.3": {
-      "in": 0.238,
-      "cached": 0.0391,
-      "cache_write": 0.238,
-      "out": 0.748
+      "in": 0.35559999999999997,
+      "cached": 0.06604,
+      "cache_write": 0.35559999999999997,
+      "out": 2.574
     },
     "z-ai/glm-5.3-flash": {
-      "in": 0.04,
-      "cached": 0.015,
-      "cache_write": 0.04,
+      "in": 0.15,
+      "cached": 0.03,
+      "cache_write": 0.15,
       "out": 0.5
     },
     "z-ai/glm-5.3-flash:batch": {
