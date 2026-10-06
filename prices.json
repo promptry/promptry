@@ -1,6 +1,6 @@
 {
-  "version": "2026-10-05",
-  "updated": "2026-10-05T14:29:02Z",
+  "version": "2026-10-06",
+  "updated": "2026-10-06T13:14:58Z",
   "source": "litellm",
   "mode": "replace",
   "rates": {
@@ -4665,6 +4665,12 @@
       "cached": 0.39999999999999997,
       "cache_write": 0.7999999999999999,
       "out": 3.1999999999999997
+    },
+    "amazon.nova-2-5-sonic": {
+      "in": 0.33,
+      "cached": 0.165,
+      "cache_write": 0.33,
+      "out": 2.75
     },
     "amazon.nova-2-lite-v1:0": {
       "in": 0.3,
@@ -18747,6 +18753,12 @@
       "cached": 0.5,
       "cache_write": 2.0,
       "out": 6.0
+    },
+    "global.zai.glm-5.3": {
+      "in": 1.68,
+      "cached": 0.312,
+      "cache_write": 2.0999999999999996,
+      "out": 5.28
     },
     "global/gpt-4o-2024-08-06": {
       "in": 2.5,
@@ -38145,6 +38157,12 @@
       "cached": 0.55,
       "cache_write": 2.2,
       "out": 6.6000000000000005
+    },
+    "us.zai.glm-5.3": {
+      "in": 1.8479999999999999,
+      "cached": 0.3432,
+      "cache_write": 2.31,
+      "out": 5.808
     },
     "us/codex-mini": {
       "in": 1.6500000000000001,
