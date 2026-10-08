@@ -1,6 +1,6 @@
 {
-  "version": "2026-10-07",
-  "updated": "2026-10-07T13:15:10Z",
+  "version": "2026-10-08",
+  "updated": "2026-10-08T13:21:47Z",
   "source": "litellm",
   "mode": "replace",
   "rates": {
@@ -4906,6 +4906,12 @@
       "cache_write": 1.25,
       "out": 5.0
     },
+    "anthropic.claude-haiku-5-5": {
+      "in": 0.09999999999999999,
+      "cached": 0.01,
+      "cache_write": 0.125,
+      "out": 0.5
+    },
     "anthropic.claude-instant-v1": {
       "in": 0.7999999999999999,
       "cached": 0.39999999999999997,
@@ -4998,7 +5004,7 @@
     },
     "anthropic.claude-sonnet-5-5": {
       "in": 2.0,
-      "cached": 0.19999999999999998,
+      "cached": 0.09999999999999999,
       "cache_write": 2.5,
       "out": 10.0
     },
@@ -5139,6 +5145,18 @@
       "cached": 0.049999999999999996,
       "cache_write": 0.625,
       "out": 2.5
+    },
+    "anthropic/claude-haiku-5-5": {
+      "in": 0.09999999999999999,
+      "cached": 0.01,
+      "cache_write": 0.09999999999999999,
+      "out": 0.5
+    },
+    "anthropic/claude-haiku-5.5": {
+      "in": 0.09999999999999999,
+      "cached": 0.01,
+      "cache_write": 0.125,
+      "out": 0.5
     },
     "anthropic/claude-opus-4": {
       "in": 15.0,
@@ -5602,6 +5620,12 @@
       "cache_write": 1.375,
       "out": 5.5
     },
+    "apac.anthropic.claude-haiku-5-5": {
+      "in": 0.11,
+      "cached": 0.011,
+      "cache_write": 0.1375,
+      "out": 0.55
+    },
     "apac.anthropic.claude-mythos-preview": {
       "in": 27.5,
       "cached": 2.75,
@@ -5652,7 +5676,7 @@
     },
     "apac.anthropic.claude-sonnet-5-5": {
       "in": 2.2,
-      "cached": 0.22,
+      "cached": 0.11,
       "cache_write": 2.75,
       "out": 11.0
     },
@@ -5716,6 +5740,12 @@
       "cache_write": 1.375,
       "out": 5.5
     },
+    "au.anthropic.claude-haiku-5-5": {
+      "in": 0.11,
+      "cached": 0.011,
+      "cache_write": 0.1375,
+      "out": 0.55
+    },
     "au.anthropic.claude-mythos-preview": {
       "in": 27.5,
       "cached": 2.75,
@@ -5772,7 +5802,7 @@
     },
     "au.anthropic.claude-sonnet-5-5": {
       "in": 2.2,
-      "cached": 0.22,
+      "cached": 0.11,
       "cache_write": 2.75,
       "out": 11.0
     },
@@ -7792,6 +7822,12 @@
       "cache_write": 1.25,
       "out": 5.0
     },
+    "azure_ai/claude-haiku-5-5": {
+      "in": 0.09999999999999999,
+      "cached": 0.01,
+      "cache_write": 0.125,
+      "out": 0.5
+    },
     "azure_ai/claude-opus-4-5": {
       "in": 5.0,
       "cached": 0.5,
@@ -9064,6 +9100,12 @@
       "cache_write": 1.5,
       "out": 6.0
     },
+    "bedrock/us-gov-east-1/anthropic.claude-haiku-5-5": {
+      "in": 0.12,
+      "cached": 0.012,
+      "cache_write": 0.15,
+      "out": 0.6
+    },
     "bedrock/us-gov-east-1/anthropic.claude-opus-4-8": {
       "in": 6.0,
       "cached": 0.6,
@@ -9096,7 +9138,7 @@
     },
     "bedrock/us-gov-east-1/anthropic.claude-sonnet-5-5": {
       "in": 2.4,
-      "cached": 0.24,
+      "cached": 0.12,
       "cache_write": 3.0,
       "out": 12.0
     },
@@ -9220,6 +9262,12 @@
       "cache_write": 1.5,
       "out": 6.0
     },
+    "bedrock/us-gov-west-1/anthropic.claude-haiku-5-5": {
+      "in": 0.12,
+      "cached": 0.012,
+      "cache_write": 0.15,
+      "out": 0.6
+    },
     "bedrock/us-gov-west-1/anthropic.claude-opus-4-8": {
       "in": 6.0,
       "cached": 0.6,
@@ -9252,7 +9300,7 @@
     },
     "bedrock/us-gov-west-1/anthropic.claude-sonnet-5-5": {
       "in": 2.4,
-      "cached": 0.24,
+      "cached": 0.12,
       "cache_write": 3.0,
       "out": 12.0
     },
@@ -9412,6 +9460,12 @@
       "cache_write": 1.25,
       "out": 5.0
     },
+    "bedrock_mantle/anthropic.claude-haiku-5-5": {
+      "in": 0.11,
+      "cached": 0.011,
+      "cache_write": 0.1375,
+      "out": 0.55
+    },
     "bedrock_mantle/anthropic.claude-opus-5-5": {
       "in": 4.4,
       "cached": 0.22,
@@ -9420,7 +9474,7 @@
     },
     "bedrock_mantle/anthropic.claude-sonnet-5-5": {
       "in": 2.2,
-      "cached": 0.22,
+      "cached": 0.11,
       "cache_write": 2.75,
       "out": 11.0
     },
@@ -9604,6 +9658,12 @@
       "cache_write": 2.64,
       "out": 7.920000000000001
     },
+    "bedrock_mantle/us-gov-west-1/anthropic.claude-haiku-5-5": {
+      "in": 0.12,
+      "cached": 0.012,
+      "cache_write": 0.15,
+      "out": 0.6
+    },
     "bedrock_mantle/us-gov-west-1/anthropic.claude-opus-5-5": {
       "in": 4.8,
       "cached": 0.24,
@@ -9612,7 +9672,7 @@
     },
     "bedrock_mantle/us-gov-west-1/anthropic.claude-sonnet-5-5": {
       "in": 2.4,
-      "cached": 0.24,
+      "cached": 0.12,
       "cache_write": 3.0,
       "out": 12.0
     },
@@ -9635,22 +9695,22 @@
       "out": 0.096
     },
     "bedrock_mantle/us-gov-west-1/openai.gpt-5.4": {
-      "in": 3.3000000000000003,
-      "cached": 0.33,
-      "cache_write": 3.3000000000000003,
-      "out": 19.8
+      "in": 3.375,
+      "cached": 0.3375,
+      "cache_write": 3.375,
+      "out": 20.25
     },
     "bedrock_mantle/us-gov-west-1/openai.gpt-5.6-luna": {
-      "in": 0.26399999999999996,
-      "cached": 0.0264,
-      "cache_write": 0.33,
-      "out": 1.584
+      "in": 0.27,
+      "cached": 0.027,
+      "cache_write": 0.3375,
+      "out": 1.6199999999999999
     },
     "bedrock_mantle/us-gov-west-1/openai.gpt-5.6-terra": {
-      "in": 2.64,
-      "cached": 0.26399999999999996,
-      "cache_write": 3.3000000000000003,
-      "out": 15.840000000000002
+      "in": 2.7,
+      "cached": 0.27,
+      "cache_write": 3.375,
+      "out": 16.2
     },
     "bedrock_mantle/us-gov-west-1/openai.gpt-oss-120b": {
       "in": 0.18,
@@ -10090,6 +10150,24 @@
       "cache_write": 0.625,
       "out": 2.5
     },
+    "claude-haiku-5-5": {
+      "in": 0.09999999999999999,
+      "cached": 0.01,
+      "cache_write": 0.125,
+      "out": 0.5
+    },
+    "claude-haiku-5-5@default": {
+      "in": 0.09999999999999999,
+      "cached": 0.01,
+      "cache_write": 0.125,
+      "out": 0.5
+    },
+    "claude-haiku-5.5": {
+      "in": 0.09999999999999999,
+      "cached": 0.01,
+      "cache_write": 0.125,
+      "out": 0.5
+    },
     "claude-haiku-latest": {
       "in": 1.0,
       "cached": 0.09999999999999999,
@@ -10374,13 +10452,13 @@
     },
     "claude-sonnet-5-5": {
       "in": 2.0,
-      "cached": 0.19999999999999998,
+      "cached": 0.09999999999999999,
       "cache_write": 2.5,
       "out": 10.0
     },
     "claude-sonnet-5-5@default": {
       "in": 2.0,
-      "cached": 0.19999999999999998,
+      "cached": 0.09999999999999999,
       "cache_write": 2.5,
       "out": 10.0
     },
@@ -14410,6 +14488,12 @@
       "cache_write": 1.375,
       "out": 5.5
     },
+    "eu.anthropic.claude-haiku-5-5": {
+      "in": 0.11,
+      "cached": 0.011,
+      "cache_write": 0.1375,
+      "out": 0.55
+    },
     "eu.anthropic.claude-opus-4-1-20250805-v1:0": {
       "in": 15.0,
       "cached": 1.5,
@@ -14484,7 +14568,7 @@
     },
     "eu.anthropic.claude-sonnet-5-5": {
       "in": 2.2,
-      "cached": 0.22,
+      "cached": 0.11,
       "cache_write": 2.75,
       "out": 11.0
     },
@@ -18622,6 +18706,12 @@
       "cache_write": 1.25,
       "out": 5.0
     },
+    "global.anthropic.claude-haiku-5-5": {
+      "in": 0.09999999999999999,
+      "cached": 0.01,
+      "cache_write": 0.125,
+      "out": 0.5
+    },
     "global.anthropic.claude-mythos-5-1": {
       "in": 10.0,
       "cached": 0.25,
@@ -18690,7 +18780,7 @@
     },
     "global.anthropic.claude-sonnet-5-5": {
       "in": 2.0,
-      "cached": 0.19999999999999998,
+      "cached": 0.09999999999999999,
       "cache_write": 2.5,
       "out": 10.0
     },
@@ -21724,6 +21814,12 @@
       "cache_write": 1.375,
       "out": 5.5
     },
+    "jp.anthropic.claude-haiku-5-5": {
+      "in": 0.11,
+      "cached": 0.011,
+      "cache_write": 0.1375,
+      "out": 0.55
+    },
     "jp.anthropic.claude-opus-4-7": {
       "in": 5.5,
       "cached": 0.55,
@@ -21768,7 +21864,7 @@
     },
     "jp.anthropic.claude-sonnet-5-5": {
       "in": 2.2,
-      "cached": 0.22,
+      "cached": 0.11,
       "cache_write": 2.75,
       "out": 11.0
     },
@@ -29344,6 +29440,12 @@
       "cache_write": 0.625,
       "out": 2.5
     },
+    "openrouter/anthropic/claude-haiku-5.5": {
+      "in": 0.09999999999999999,
+      "cached": 0.01,
+      "cache_write": 0.125,
+      "out": 0.5
+    },
     "openrouter/anthropic/claude-opus-4.1": {
       "in": 15.0,
       "cached": 1.5,
@@ -32361,6 +32463,12 @@
       "cached": 0.09999999999999999,
       "cache_write": 1.0,
       "out": 5.0
+    },
+    "perplexity/anthropic/claude-haiku-5-5": {
+      "in": 0.09999999999999999,
+      "cached": 0.01,
+      "cache_write": 0.09999999999999999,
+      "out": 0.5
     },
     "perplexity/anthropic/claude-opus-4-5": {
       "in": 5.0,
@@ -37282,6 +37390,12 @@
       "cache_write": 1.5,
       "out": 6.0
     },
+    "us-gov-east-1/anthropic.claude-haiku-5-5": {
+      "in": 0.12,
+      "cached": 0.012,
+      "cache_write": 0.15,
+      "out": 0.6
+    },
     "us-gov-east-1/anthropic.claude-opus-4-8": {
       "in": 6.0,
       "cached": 0.6,
@@ -37314,7 +37428,7 @@
     },
     "us-gov-east-1/anthropic.claude-sonnet-5-5": {
       "in": 2.4,
-      "cached": 0.24,
+      "cached": 0.12,
       "cache_write": 3.0,
       "out": 12.0
     },
@@ -37462,6 +37576,12 @@
       "cache_write": 1.5,
       "out": 6.0
     },
+    "us-gov-west-1/anthropic.claude-haiku-5-5": {
+      "in": 0.12,
+      "cached": 0.012,
+      "cache_write": 0.15,
+      "out": 0.6
+    },
     "us-gov-west-1/anthropic.claude-opus-4-8": {
       "in": 6.0,
       "cached": 0.6,
@@ -37494,7 +37614,7 @@
     },
     "us-gov-west-1/anthropic.claude-sonnet-5-5": {
       "in": 2.4,
-      "cached": 0.24,
+      "cached": 0.12,
       "cache_write": 3.0,
       "out": 12.0
     },
@@ -37559,22 +37679,22 @@
       "out": 0.78
     },
     "us-gov-west-1/openai.gpt-5.4": {
-      "in": 3.3000000000000003,
-      "cached": 0.33,
-      "cache_write": 3.3000000000000003,
-      "out": 19.8
+      "in": 3.375,
+      "cached": 0.3375,
+      "cache_write": 3.375,
+      "out": 20.25
     },
     "us-gov-west-1/openai.gpt-5.6-luna": {
-      "in": 0.26399999999999996,
-      "cached": 0.0264,
-      "cache_write": 0.33,
-      "out": 1.584
+      "in": 0.27,
+      "cached": 0.027,
+      "cache_write": 0.3375,
+      "out": 1.6199999999999999
     },
     "us-gov-west-1/openai.gpt-5.6-terra": {
-      "in": 2.64,
-      "cached": 0.26399999999999996,
-      "cache_write": 3.3000000000000003,
-      "out": 15.840000000000002
+      "in": 2.7,
+      "cached": 0.27,
+      "cache_write": 3.375,
+      "out": 16.2
     },
     "us-gov-west-1/openai.gpt-oss-120b": {
       "in": 0.18,
@@ -37618,6 +37738,12 @@
       "cache_write": 15.0,
       "out": 60.0
     },
+    "us-gov.anthropic.claude-haiku-5-5": {
+      "in": 0.12,
+      "cached": 0.012,
+      "cache_write": 0.15,
+      "out": 0.6
+    },
     "us-gov.anthropic.claude-opus-4-8": {
       "in": 6.0,
       "cached": 0.6,
@@ -37650,7 +37776,7 @@
     },
     "us-gov.anthropic.claude-sonnet-5-5": {
       "in": 2.4,
-      "cached": 0.24,
+      "cached": 0.12,
       "cache_write": 3.0,
       "out": 12.0
     },
@@ -37888,6 +38014,12 @@
       "cache_write": 1.375,
       "out": 5.5
     },
+    "us.anthropic.claude-haiku-5-5": {
+      "in": 0.11,
+      "cached": 0.011,
+      "cache_write": 0.1375,
+      "out": 0.55
+    },
     "us.anthropic.claude-mythos-5": {
       "in": 11.0,
       "cached": 1.1,
@@ -37980,7 +38112,7 @@
     },
     "us.anthropic.claude-sonnet-5-5": {
       "in": 2.2,
-      "cached": 0.22,
+      "cached": 0.11,
       "cache_write": 2.75,
       "out": 11.0
     },
@@ -39286,6 +39418,18 @@
       "cache_write": 1.25,
       "out": 5.0
     },
+    "vertex_ai/claude-haiku-5-5": {
+      "in": 0.09999999999999999,
+      "cached": 0.01,
+      "cache_write": 0.125,
+      "out": 0.5
+    },
+    "vertex_ai/claude-haiku-5-5@default": {
+      "in": 0.09999999999999999,
+      "cached": 0.01,
+      "cache_write": 0.125,
+      "out": 0.5
+    },
     "vertex_ai/claude-opus-4-5": {
       "in": 5.0,
       "cached": 0.5,
@@ -39390,13 +39534,13 @@
     },
     "vertex_ai/claude-sonnet-5-5": {
       "in": 2.0,
-      "cached": 0.19999999999999998,
+      "cached": 0.09999999999999999,
       "cache_write": 2.5,
       "out": 10.0
     },
     "vertex_ai/claude-sonnet-5-5@default": {
       "in": 2.0,
-      "cached": 0.19999999999999998,
+      "cached": 0.09999999999999999,
       "cache_write": 2.5,
       "out": 10.0
     },
