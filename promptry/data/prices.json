@@ -1,6 +1,6 @@
 {
-  "version": "2026-10-13",
-  "updated": "2026-10-13T14:05:39Z",
+  "version": "2026-10-14",
+  "updated": "2026-10-14T11:45:25Z",
   "source": "litellm",
   "mode": "replace",
   "rates": {
@@ -1811,10 +1811,10 @@
       "out": 3.0
     },
     "Qwen/Qwen3.7-Max": {
-      "in": 2.5,
-      "cached": 0.5,
-      "cache_write": 2.5,
-      "out": 7.5
+      "in": 1.5,
+      "cached": 0.3,
+      "cache_write": 1.5,
+      "out": 4.5
     },
     "Qwen/Qwen3.7-Plus": {
       "in": 0.32,
@@ -2153,10 +2153,10 @@
       "out": 3.0
     },
     "Qwen3.7-Max": {
-      "in": 2.5,
-      "cached": 0.5,
-      "cache_write": 2.5,
-      "out": 7.5
+      "in": 1.5,
+      "cached": 0.3,
+      "cache_write": 1.5,
+      "out": 4.5
     },
     "Qwen3.7-Plus": {
       "in": 0.32,
@@ -17116,6 +17116,18 @@
       "cache_write": 0.75,
       "out": 4.5
     },
+    "gemini-4-argon": {
+      "in": 2.0,
+      "cached": 0.09999999999999999,
+      "cache_write": 2.0,
+      "out": 10.0
+    },
+    "gemini-4-argon-cyber-permissive": {
+      "in": 4.0,
+      "cached": 0.19999999999999998,
+      "cache_write": 4.0,
+      "out": 20.0
+    },
     "gemini-embedding-001": {
       "in": 0.15,
       "cached": 0.075,
@@ -17463,6 +17475,12 @@
       "cached": 0.375,
       "cache_write": 0.75,
       "out": 4.5
+    },
+    "gemini/gemini-4-argon": {
+      "in": 2.0,
+      "cached": 0.09999999999999999,
+      "cache_write": 2.0,
+      "out": 10.0
     },
     "gemini/gemini-embedding-001": {
       "in": 0.15,
@@ -17830,6 +17848,12 @@
       "cache_write": 0.125,
       "out": 0.5
     },
+    "github_copilot/gemini-4-argon": {
+      "in": 2.0,
+      "cached": 0.09999999999999999,
+      "cache_write": 2.0,
+      "out": 10.0
+    },
     "github_copilot/gpt-5-mini": {
       "in": 0.25,
       "cached": 0.024999999999999998,
@@ -18033,6 +18057,12 @@
       "cached": 0.03,
       "cache_write": 0.0,
       "out": 0.5
+    },
+    "glm-5.3-flashx": {
+      "in": 0.37,
+      "cached": 0.075,
+      "cache_write": 0.0,
+      "out": 1.25
     },
     "glm-5.3-fp4": {
       "in": 1.12,
@@ -20808,9 +20838,15 @@
     },
     "kimi-k2.7-code-highspeed": {
       "in": 1.9,
-      "cached": 0.32167,
-      "cache_write": 1.9,
-      "out": 7.9990000000000006
+      "cached": 0.38,
+      "cache_write": 0.0,
+      "out": 8.0
+    },
+    "kimi-k2.8-preview": {
+      "in": 1.0,
+      "cached": 0.25,
+      "cache_write": 0.0,
+      "out": 4.0
     },
     "kimi-k2p5": {
       "in": 0.6,
@@ -30605,16 +30641,76 @@
       "out": 0.28
     },
     "tencent/deepseek-v4-pro": {
-      "in": 0.435,
-      "cached": 0.003625,
+      "in": 1.74,
+      "cached": 0.145,
       "cache_write": 0.0,
-      "out": 0.87
+      "out": 3.48
+    },
+    "tencent/deepseek-v4-pro-0813": {
+      "in": 1.32,
+      "cached": 0.044,
+      "cache_write": 0.0,
+      "out": 3.9600000000000004
+    },
+    "tencent/deepseek-v4.1-flash": {
+      "in": 0.3,
+      "cached": 0.006,
+      "cache_write": 0.0,
+      "out": 1.2
+    },
+    "tencent/glm-5.2": {
+      "in": 1.4,
+      "cached": 0.26,
+      "cache_write": 0.0,
+      "out": 4.4
+    },
+    "tencent/glm-5.3": {
+      "in": 1.4,
+      "cached": 0.26,
+      "cache_write": 0.0,
+      "out": 4.4
+    },
+    "tencent/glm-5.3-flash": {
+      "in": 0.15,
+      "cached": 0.03,
+      "cache_write": 0.0,
+      "out": 0.5
+    },
+    "tencent/glm-5.3-flashx": {
+      "in": 0.37,
+      "cached": 0.075,
+      "cache_write": 0.0,
+      "out": 1.25
     },
     "tencent/hy3": {
       "in": 0.14,
       "cached": 0.035,
       "cache_write": 0.14,
       "out": 0.58
+    },
+    "tencent/kimi-k2.7-code": {
+      "in": 0.95,
+      "cached": 0.19,
+      "cache_write": 0.0,
+      "out": 4.0
+    },
+    "tencent/kimi-k2.7-code-highspeed": {
+      "in": 1.9,
+      "cached": 0.38,
+      "cache_write": 0.0,
+      "out": 8.0
+    },
+    "tencent/kimi-k2.8-preview": {
+      "in": 1.0,
+      "cached": 0.25,
+      "cache_write": 0.0,
+      "out": 4.0
+    },
+    "tencent/kimi-k3": {
+      "in": 3.0,
+      "cached": 0.3,
+      "cache_write": 0.0,
+      "out": 15.0
     },
     "tencent/minimax-m3": {
       "in": 0.3,
@@ -31013,10 +31109,10 @@
       "out": 3.0
     },
     "together_ai/Qwen/Qwen3.7-Max": {
-      "in": 2.5,
-      "cached": 0.5,
-      "cache_write": 2.5,
-      "out": 7.5
+      "in": 1.5,
+      "cached": 0.3,
+      "cache_write": 1.5,
+      "out": 4.5
     },
     "together_ai/Qwen/Qwen3.7-Plus": {
       "in": 0.32,
@@ -31253,10 +31349,10 @@
       "out": 4.0
     },
     "together_ai/moonshotai/Kimi-K3": {
-      "in": 2.7,
-      "cached": 0.27,
-      "cache_write": 2.7,
-      "out": 13.5
+      "in": 3.0,
+      "cached": 0.3,
+      "cache_write": 3.0,
+      "out": 15.0
     },
     "together_ai/nvidia/Llama-3.1-Nemotron-70B-Instruct-HF": {
       "in": 0.88,
@@ -34005,6 +34101,18 @@
       "cached": 0.375,
       "cache_write": 0.75,
       "out": 4.5
+    },
+    "vertex_ai/gemini-4-argon": {
+      "in": 2.0,
+      "cached": 0.09999999999999999,
+      "cache_write": 2.0,
+      "out": 10.0
+    },
+    "vertex_ai/gemini-4-argon-cyber-permissive": {
+      "in": 4.0,
+      "cached": 0.19999999999999998,
+      "cache_write": 4.0,
+      "out": 20.0
     },
     "vertex_ai/gemini-embedding-2": {
       "in": 0.19999999999999998,
