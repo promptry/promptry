@@ -1,6 +1,6 @@
 {
-  "version": "2026-10-14",
-  "updated": "2026-10-14T11:45:25Z",
+  "version": "2026-10-15",
+  "updated": "2026-10-15T11:21:34Z",
   "source": "litellm",
   "mode": "replace",
   "rates": {
@@ -447,6 +447,12 @@
       "cached": 0.014,
       "cache_write": 0.6,
       "out": 2.4
+    },
+    "DeepSeek-V4.1-flash": {
+      "in": 0.15,
+      "cached": 0.01,
+      "cache_write": 0.15,
+      "out": 0.6
     },
     "Embeddings": {
       "in": 0.0,
@@ -7618,12 +7624,6 @@
       "cache_write": 12.5,
       "out": 50.0
     },
-    "azure_ai/claude-fable-5-5": {
-      "in": 10.0,
-      "cached": 0.25,
-      "cache_write": 12.5,
-      "out": 50.0
-    },
     "azure_ai/claude-haiku-4-5": {
       "in": 1.0,
       "cached": 0.09999999999999999,
@@ -9857,12 +9857,6 @@
       "out": 50.0
     },
     "claude-fable-5-1@default": {
-      "in": 10.0,
-      "cached": 0.25,
-      "cache_write": 12.5,
-      "out": 50.0
-    },
-    "claude-fable-5-5": {
       "in": 10.0,
       "cached": 0.25,
       "cache_write": 12.5,
@@ -20674,6 +20668,12 @@
       "cache_write": 0.041999999999999996,
       "out": 0.0
     },
+    "jev-1.14.0": {
+      "in": 0.041999999999999996,
+      "cached": 0.020999999999999998,
+      "cache_write": 0.041999999999999996,
+      "out": 0.0
+    },
     "jev-latest": {
       "in": 0.041999999999999996,
       "cached": 0.020999999999999998,
@@ -30220,11 +30220,29 @@
       "cache_write": 0.25,
       "out": 1.5
     },
+    "scx-ai/DeepSeek-V4.1-flash": {
+      "in": 0.15,
+      "cached": 0.01,
+      "cache_write": 0.15,
+      "out": 0.6
+    },
     "scx-ai/GLM-5.2": {
       "in": 0.61,
       "cached": 0.22,
       "cache_write": 0.61,
       "out": 1.9800000000000002
+    },
+    "scx-ai/GLM-5.3": {
+      "in": 0.98,
+      "cached": 0.18,
+      "cache_write": 0.98,
+      "out": 3.08
+    },
+    "scx-ai/Kimi-K3": {
+      "in": 2.83,
+      "cached": 0.28,
+      "cache_write": 2.83,
+      "out": 14.13
     },
     "scx-ai/Qwen3.8-Max": {
       "in": 1.6500000000000001,
@@ -31487,6 +31505,12 @@
       "out": 0.0
     },
     "typesafe/jev-1.13.0": {
+      "in": 0.041999999999999996,
+      "cached": 0.020999999999999998,
+      "cache_write": 0.041999999999999996,
+      "out": 0.0
+    },
+    "typesafe/jev-1.14.0": {
       "in": 0.041999999999999996,
       "cached": 0.020999999999999998,
       "cache_write": 0.041999999999999996,
