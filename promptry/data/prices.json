@@ -1,6 +1,6 @@
 {
-  "version": "2026-10-16",
-  "updated": "2026-10-16T11:16:08Z",
+  "version": "2026-10-17",
+  "updated": "2026-10-17T10:36:01Z",
   "source": "litellm",
   "mode": "replace",
   "rates": {
@@ -237,6 +237,18 @@
       "cached": 0.0,
       "cache_write": 0.0,
       "out": 0.0
+    },
+    "Beam-1.0": {
+      "in": 1.3,
+      "cached": 0.13,
+      "cache_write": 1.3,
+      "out": 4.300000000000001
+    },
+    "Beam-1.0-501B-A23B": {
+      "in": 0.39999999999999997,
+      "cached": 0.04,
+      "cache_write": 0.39999999999999997,
+      "out": 1.2
     },
     "Bespoke-Nimble-9B": {
       "in": 0.0,
@@ -8302,6 +8314,12 @@
       "cache_write": 0.09999999999999999,
       "out": 0.5
     },
+    "baseten/reflection/Beam-1.0": {
+      "in": 1.3,
+      "cached": 0.13,
+      "cache_write": 1.3,
+      "out": 4.300000000000001
+    },
     "baseten/thinkingmachines/inkling": {
       "in": 1.0,
       "cached": 0.16999999999999998,
@@ -8361,6 +8379,12 @@
       "cached": 0.03,
       "cache_write": 0.15,
       "out": 0.5
+    },
+    "beam": {
+      "in": 0.25,
+      "cached": 0.125,
+      "cache_write": 0.25,
+      "out": 1.0
     },
     "bedrock/ap-northeast-1/anthropic.claude-instant-v1": {
       "in": 2.23,
@@ -9904,6 +9928,12 @@
       "cache_write": 12.5,
       "out": 50.0
     },
+    "claude-fable-5.1": {
+      "in": 10.0,
+      "cached": 0.25,
+      "cache_write": 12.5,
+      "out": 50.0
+    },
     "claude-fable-5@default": {
       "in": 10.0,
       "cached": 1.0,
@@ -10066,6 +10096,12 @@
       "cache_write": 6.25,
       "out": 25.0
     },
+    "claude-opus-4.8": {
+      "in": 5.0,
+      "cached": 0.5,
+      "cache_write": 6.25,
+      "out": 25.0
+    },
     "claude-opus-5": {
       "in": 5.0,
       "cached": 0.5,
@@ -10085,6 +10121,12 @@
       "out": 40.0
     },
     "claude-opus-5-5@default": {
+      "in": 4.0,
+      "cached": 0.19999999999999998,
+      "cache_write": 5.0,
+      "out": 20.0
+    },
+    "claude-opus-5.5": {
       "in": 4.0,
       "cached": 0.19999999999999998,
       "cache_write": 5.0,
@@ -10157,6 +10199,12 @@
       "out": 10.0
     },
     "claude-sonnet-5-5@default": {
+      "in": 2.0,
+      "cached": 0.09999999999999999,
+      "cache_write": 2.5,
+      "out": 10.0
+    },
+    "claude-sonnet-5.5": {
       "in": 2.0,
       "cached": 0.09999999999999999,
       "cache_write": 2.5,
@@ -13767,6 +13815,30 @@
       "cached": 0.08625,
       "cache_write": 0.43125,
       "out": 2.15625
+    },
+    "drex-latest": {
+      "in": 0.06,
+      "cached": 0.03,
+      "cache_write": 0.06,
+      "out": 0.0
+    },
+    "drex-v1.0": {
+      "in": 0.04,
+      "cached": 0.02,
+      "cache_write": 0.04,
+      "out": 0.0
+    },
+    "drex-v1.5": {
+      "in": 0.049999999999999996,
+      "cached": 0.024999999999999998,
+      "cache_write": 0.049999999999999996,
+      "out": 0.0
+    },
+    "drex-v2.0": {
+      "in": 0.06,
+      "cached": 0.03,
+      "cache_write": 0.06,
+      "out": 0.0
     },
     "e5-mistral-7b-instruct": {
       "in": 0.01,
@@ -17896,6 +17968,18 @@
       "cache_write": 0.0,
       "out": 0.0
     },
+    "github_copilot/claude-fable-5": {
+      "in": 10.0,
+      "cached": 1.0,
+      "cache_write": 12.5,
+      "out": 50.0
+    },
+    "github_copilot/claude-fable-5.1": {
+      "in": 10.0,
+      "cached": 0.25,
+      "cache_write": 12.5,
+      "out": 50.0
+    },
     "github_copilot/claude-haiku-4.5": {
       "in": 1.0,
       "cached": 0.09999999999999999,
@@ -17907,6 +17991,48 @@
       "cached": 0.01,
       "cache_write": 0.125,
       "out": 0.5
+    },
+    "github_copilot/claude-opus-4.8": {
+      "in": 5.0,
+      "cached": 0.5,
+      "cache_write": 6.25,
+      "out": 25.0
+    },
+    "github_copilot/claude-opus-5": {
+      "in": 5.0,
+      "cached": 0.5,
+      "cache_write": 6.25,
+      "out": 25.0
+    },
+    "github_copilot/claude-opus-5.5": {
+      "in": 4.0,
+      "cached": 0.19999999999999998,
+      "cache_write": 5.0,
+      "out": 20.0
+    },
+    "github_copilot/claude-sonnet-5": {
+      "in": 2.0,
+      "cached": 0.19999999999999998,
+      "cache_write": 2.5,
+      "out": 10.0
+    },
+    "github_copilot/claude-sonnet-5.5": {
+      "in": 2.0,
+      "cached": 0.09999999999999999,
+      "cache_write": 2.5,
+      "out": 10.0
+    },
+    "github_copilot/gemini-3.7-flash": {
+      "in": 0.75,
+      "cached": 0.075,
+      "cache_write": 0.75,
+      "out": 3.75
+    },
+    "github_copilot/gemini-3.8-flash": {
+      "in": 0.75,
+      "cached": 0.075,
+      "cache_write": 0.75,
+      "out": 3.75
     },
     "github_copilot/gemini-4-argon": {
       "in": 2.0,
@@ -17925,6 +18051,78 @@
       "cached": 0.175,
       "cache_write": 1.75,
       "out": 14.0
+    },
+    "github_copilot/gpt-5.4": {
+      "in": 2.5,
+      "cached": 0.25,
+      "cache_write": 2.5,
+      "out": 15.0
+    },
+    "github_copilot/gpt-5.4-mini": {
+      "in": 0.75,
+      "cached": 0.075,
+      "cache_write": 0.75,
+      "out": 4.5
+    },
+    "github_copilot/gpt-5.5": {
+      "in": 5.0,
+      "cached": 0.5,
+      "cache_write": 5.0,
+      "out": 30.0
+    },
+    "github_copilot/gpt-5.6-luna": {
+      "in": 0.19999999999999998,
+      "cached": 0.02,
+      "cache_write": 0.25,
+      "out": 1.2
+    },
+    "github_copilot/gpt-5.6-sol": {
+      "in": 4.0,
+      "cached": 0.39999999999999997,
+      "cache_write": 5.0,
+      "out": 20.0
+    },
+    "github_copilot/gpt-5.6-terra": {
+      "in": 2.0,
+      "cached": 0.19999999999999998,
+      "cache_write": 2.5,
+      "out": 12.0
+    },
+    "github_copilot/gpt-6-astra": {
+      "in": 10.0,
+      "cached": 1.0,
+      "cache_write": 12.5,
+      "out": 50.0
+    },
+    "github_copilot/gpt-6-luna": {
+      "in": 0.09999999999999999,
+      "cached": 0.01,
+      "cache_write": 0.125,
+      "out": 0.5
+    },
+    "github_copilot/gpt-6-sol": {
+      "in": 2.0,
+      "cached": 0.19999999999999998,
+      "cache_write": 2.5,
+      "out": 10.0
+    },
+    "github_copilot/gpt-6.1-sol": {
+      "in": 2.0,
+      "cached": 0.09999999999999999,
+      "cache_write": 2.5,
+      "out": 10.0
+    },
+    "github_copilot/kimi-k3": {
+      "in": 3.0,
+      "cached": 0.3,
+      "cache_write": 3.0,
+      "out": 15.0
+    },
+    "github_copilot/mai-code-1.1-flash": {
+      "in": 0.19999999999999998,
+      "cached": 0.02,
+      "cache_write": 0.19999999999999998,
+      "out": 1.2
     },
     "glm-4-32b-0414": {
       "in": 0.55,
@@ -22348,6 +22546,12 @@
       "cache_write": 0.15,
       "out": 0.6
     },
+    "mai-code-1.1-flash": {
+      "in": 0.19999999999999998,
+      "cached": 0.02,
+      "cache_write": 0.19999999999999998,
+      "out": 1.2
+    },
     "mai-thinking-1": {
       "in": 2.0,
       "cached": 1.0,
@@ -24796,6 +25000,30 @@
       "cache_write": 0.19999999999999998,
       "out": 0.19999999999999998
     },
+    "nace/drex-latest": {
+      "in": 0.06,
+      "cached": 0.03,
+      "cache_write": 0.06,
+      "out": 0.0
+    },
+    "nace/drex-v1.0": {
+      "in": 0.04,
+      "cached": 0.02,
+      "cache_write": 0.04,
+      "out": 0.0
+    },
+    "nace/drex-v1.5": {
+      "in": 0.049999999999999996,
+      "cached": 0.024999999999999998,
+      "cache_write": 0.049999999999999996,
+      "out": 0.0
+    },
+    "nace/drex-v2.0": {
+      "in": 0.06,
+      "cached": 0.03,
+      "cache_write": 0.06,
+      "out": 0.0
+    },
     "nano-banana-pro-preview": {
       "in": 2.0,
       "cached": 1.0,
@@ -25143,6 +25371,12 @@
       "cached": 0.329,
       "cache_write": 0.658,
       "out": 1.1099999999999999
+    },
+    "nebius/reflection/beam": {
+      "in": 0.25,
+      "cached": 0.125,
+      "cache_write": 0.25,
+      "out": 1.0
     },
     "nebius/zai-org/GLM-5.1": {
       "in": 1.4,
@@ -29902,6 +30136,24 @@
       "cache_write": 0.0,
       "out": 0.0
     },
+    "reflection/Beam-1.0": {
+      "in": 1.3,
+      "cached": 0.13,
+      "cache_write": 1.3,
+      "out": 4.300000000000001
+    },
+    "reflection/Beam-1.0-501B-A23B": {
+      "in": 0.39999999999999997,
+      "cached": 0.04,
+      "cache_write": 0.39999999999999997,
+      "out": 1.2
+    },
+    "reflection/beam": {
+      "in": 0.25,
+      "cached": 0.125,
+      "cache_write": 0.25,
+      "out": 1.0
+    },
     "replicate/anthropic/claude-3.5-haiku": {
       "in": 1.0,
       "cached": 0.5,
@@ -31797,6 +32049,12 @@
       "cached": 0.024999999999999998,
       "cache_write": 0.049999999999999996,
       "out": 0.19999999999999998
+    },
+    "together_ai/reflection/Beam-1.0-501B-A23B": {
+      "in": 0.39999999999999997,
+      "cached": 0.04,
+      "cache_write": 0.39999999999999997,
+      "out": 1.2
     },
     "together_ai/thinkingmachines/Inkling": {
       "in": 1.0,
