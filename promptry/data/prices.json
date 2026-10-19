@@ -1,6 +1,6 @@
 {
-  "version": "2026-10-18",
-  "updated": "2026-10-18T10:58:27Z",
+  "version": "2026-10-19",
+  "updated": "2026-10-19T13:03:01Z",
   "source": "litellm",
   "mode": "replace",
   "rates": {
@@ -32051,6 +32051,12 @@
       "out": 3.9600000000000004
     },
     "together_ai/deepseek-ai/DeepSeek-V4.1-Flash": {
+      "in": 0.3,
+      "cached": 0.006,
+      "cache_write": 0.3,
+      "out": 1.2
+    },
+    "together_ai/deepseek-ai/DeepSeek-V4.1-Flash-1017": {
       "in": 0.3,
       "cached": 0.006,
       "cache_write": 0.3,
