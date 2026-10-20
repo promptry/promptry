@@ -1,6 +1,6 @@
 {
-  "version": "2026-10-19",
-  "updated": "2026-10-19T13:03:01Z",
+  "version": "2026-10-20",
+  "updated": "2026-10-20T11:29:18Z",
   "source": "litellm",
   "mode": "replace",
   "rates": {
@@ -3243,6 +3243,12 @@
       "cached": 0.06,
       "cache_write": 0.3,
       "out": 1.2
+    },
+    "accounts/fireworks/models/minimax-m3p1-flash": {
+      "in": 0.15,
+      "cached": 0.015,
+      "cache_write": 0.15,
+      "out": 0.6
     },
     "accounts/fireworks/models/ministral-3-14b-instruct-2512": {
       "in": 0.19999999999999998,
@@ -11371,7 +11377,7 @@
     "dashscope/qwen3.7-max": {
       "in": 2.5,
       "cached": 0.5,
-      "cache_write": 2.5,
+      "cache_write": 3.125,
       "out": 7.5
     },
     "dashscope/qwen3.8-flash": {
@@ -15771,6 +15777,12 @@
       "cached": 0.06,
       "cache_write": 0.3,
       "out": 1.2
+    },
+    "fireworks_ai/accounts/fireworks/models/minimax-m3p1-flash": {
+      "in": 0.15,
+      "cached": 0.015,
+      "cache_write": 0.15,
+      "out": 0.6
     },
     "fireworks_ai/accounts/fireworks/models/ministral-3-14b-instruct-2512": {
       "in": 0.19999999999999998,
@@ -23530,6 +23542,12 @@
       "cache_write": 0.3,
       "out": 1.2
     },
+    "minimax-m3p1-flash": {
+      "in": 0.15,
+      "cached": 0.015,
+      "cache_write": 0.15,
+      "out": 0.6
+    },
     "minimax.minimax-m2": {
       "in": 0.3,
       "cached": 0.15,
@@ -29947,7 +29965,7 @@
     "qwen3.7-max": {
       "in": 2.5,
       "cached": 0.5,
-      "cache_write": 2.5,
+      "cache_write": 3.125,
       "out": 7.5
     },
     "qwen3.7-plus": {
@@ -30133,7 +30151,7 @@
     "qwen_ai_platform/qwen3.7-max": {
       "in": 2.5,
       "cached": 0.5,
-      "cache_write": 2.5,
+      "cache_write": 3.125,
       "out": 7.5
     },
     "qwen_ai_platform/qwen3.8-flash": {
@@ -30295,7 +30313,7 @@
     "qwencloud/qwen3.7-max": {
       "in": 2.5,
       "cached": 0.5,
-      "cache_write": 2.5,
+      "cache_write": 3.125,
       "out": 7.5
     },
     "qwencloud/qwen3.8-max": {
