@@ -1,6 +1,6 @@
 {
-  "version": "2026-10-20",
-  "updated": "2026-10-20T11:29:18Z",
+  "version": "2026-10-21",
+  "updated": "2026-10-21T11:41:48Z",
   "source": "litellm",
   "mode": "replace",
   "rates": {
@@ -9,6 +9,12 @@
       "cached": 0.1755,
       "cache_write": 0.351,
       "out": 0.5549999999999999
+    },
+    "@cf/cloudflare/clairic": {
+      "in": 0.09999999999999999,
+      "cached": 0.049999999999999996,
+      "cache_write": 0.09999999999999999,
+      "out": 0.0
     },
     "@cf/cloudflare/clef": {
       "in": 0.24,
@@ -257,10 +263,10 @@
       "out": 0.0
     },
     "Beam-1.0": {
-      "in": 1.3,
-      "cached": 0.13,
-      "cache_write": 1.3,
-      "out": 4.300000000000001
+      "in": 0.39999999999999997,
+      "cached": 0.04,
+      "cache_write": 0.39999999999999997,
+      "out": 1.2
     },
     "Beam-1.0-501B-A23B": {
       "in": 0.39999999999999997,
@@ -1041,6 +1047,12 @@
       "cached": 0.049999999999999996,
       "cache_write": 0.09999999999999999,
       "out": 0.0
+    },
+    "MAI-Code-1.1-Flash": {
+      "in": 0.19999999999999998,
+      "cached": 0.02,
+      "cache_write": 0.19999999999999998,
+      "out": 1.2
     },
     "MAI-Cyber-1-Flash": {
       "in": 0.6,
@@ -2703,6 +2715,12 @@
       "cached": 0.006,
       "cache_write": 0.3,
       "out": 1.2
+    },
+    "accounts/fireworks/models/deepseek-v4p1-flash-1017-us": {
+      "in": 0.44999999999999996,
+      "cached": 0.009,
+      "cache_write": 0.44999999999999996,
+      "out": 1.7999999999999998
     },
     "accounts/fireworks/models/devstral-small-2505": {
       "in": 0.8999999999999999,
@@ -5752,6 +5770,12 @@
       "cache_write": 0.11,
       "out": 0.44
     },
+    "azure/eu/gpt-4o": {
+      "in": 2.75,
+      "cached": 1.375,
+      "cache_write": 1.38,
+      "out": 11.0
+    },
     "azure/eu/gpt-4o-2024-05-13": {
       "in": 5.5,
       "cached": 2.75,
@@ -5769,6 +5793,12 @@
       "cached": 1.375,
       "cache_write": 1.38,
       "out": 11.0
+    },
+    "azure/eu/gpt-4o-mini": {
+      "in": 0.165,
+      "cached": 0.083,
+      "cache_write": 0.165,
+      "out": 0.66
     },
     "azure/eu/gpt-4o-mini-2024-07-18": {
       "in": 0.165,
@@ -6004,6 +6034,12 @@
       "cache_write": 3.0,
       "out": 12.0
     },
+    "azure/eu/o1": {
+      "in": 16.5,
+      "cached": 8.25,
+      "cache_write": 16.5,
+      "out": 66.0
+    },
     "azure/eu/o1-2024-12-17": {
       "in": 16.5,
       "cached": 8.25,
@@ -6028,6 +6064,12 @@
       "cache_write": 16.5,
       "out": 66.0
     },
+    "azure/eu/o3": {
+      "in": 2.2,
+      "cached": 0.55,
+      "cache_write": 2.2,
+      "out": 8.8
+    },
     "azure/eu/o3-2025-04-16": {
       "in": 2.2,
       "cached": 0.55,
@@ -6040,9 +6082,21 @@
       "cache_write": 11.0,
       "out": 44.0
     },
+    "azure/eu/o3-mini": {
+      "in": 1.21,
+      "cached": 0.605,
+      "cache_write": 1.21,
+      "out": 4.84
+    },
     "azure/eu/o3-mini-2025-01-31": {
       "in": 1.21,
       "cached": 0.605,
+      "cache_write": 1.21,
+      "out": 4.84
+    },
+    "azure/eu/o4-mini": {
+      "in": 1.21,
+      "cached": 0.303,
       "cache_write": 1.21,
       "out": 4.84
     },
@@ -7036,6 +7090,12 @@
       "cache_write": 0.11,
       "out": 0.44
     },
+    "azure/us/gpt-4o": {
+      "in": 2.75,
+      "cached": 1.375,
+      "cache_write": 1.38,
+      "out": 11.0
+    },
     "azure/us/gpt-4o-2024-05-13": {
       "in": 5.5,
       "cached": 2.75,
@@ -7053,6 +7113,12 @@
       "cached": 1.375,
       "cache_write": 1.38,
       "out": 11.0
+    },
+    "azure/us/gpt-4o-mini": {
+      "in": 0.165,
+      "cached": 0.083,
+      "cache_write": 0.165,
+      "out": 0.66
     },
     "azure/us/gpt-4o-mini-2024-07-18": {
       "in": 0.165,
@@ -7294,6 +7360,12 @@
       "cache_write": 5.5,
       "out": 33.0
     },
+    "azure/us/o1": {
+      "in": 16.5,
+      "cached": 8.25,
+      "cache_write": 16.5,
+      "out": 66.0
+    },
     "azure/us/o1-2024-12-17": {
       "in": 16.5,
       "cached": 8.25,
@@ -7318,6 +7390,12 @@
       "cache_write": 16.5,
       "out": 66.0
     },
+    "azure/us/o3": {
+      "in": 2.2,
+      "cached": 0.55,
+      "cache_write": 2.2,
+      "out": 8.8
+    },
     "azure/us/o3-2025-04-16": {
       "in": 2.2,
       "cached": 0.55,
@@ -7330,9 +7408,21 @@
       "cache_write": 11.0,
       "out": 44.0
     },
+    "azure/us/o3-mini": {
+      "in": 1.21,
+      "cached": 0.605,
+      "cache_write": 1.21,
+      "out": 4.84
+    },
     "azure/us/o3-mini-2025-01-31": {
       "in": 1.21,
       "cached": 0.605,
+      "cache_write": 1.21,
+      "out": 4.84
+    },
+    "azure/us/o4-mini": {
+      "in": 1.21,
+      "cached": 0.303,
       "cache_write": 1.21,
       "out": 4.84
     },
@@ -7539,6 +7629,12 @@
       "cached": 0.09999999999999999,
       "cache_write": 0.19999999999999998,
       "out": 0.78
+    },
+    "azure_ai/MAI-Code-1.1-Flash": {
+      "in": 0.19999999999999998,
+      "cached": 0.02,
+      "cache_write": 0.19999999999999998,
+      "out": 1.2
     },
     "azure_ai/MAI-Cyber-1-Flash": {
       "in": 0.6,
@@ -8369,10 +8465,10 @@
       "out": 0.5
     },
     "baseten/reflection/Beam-1.0": {
-      "in": 1.3,
-      "cached": 0.13,
-      "cache_write": 1.3,
-      "out": 4.300000000000001
+      "in": 0.39999999999999997,
+      "cached": 0.04,
+      "cache_write": 0.39999999999999997,
+      "out": 1.2
     },
     "baseten/thinkingmachines/inkling": {
       "in": 1.0,
@@ -9838,6 +9934,12 @@
       "cache_write": 0.19999999999999998,
       "out": 0.19999999999999998
     },
+    "clairic": {
+      "in": 0.09999999999999999,
+      "cached": 0.049999999999999996,
+      "cache_write": 0.09999999999999999,
+      "out": 0.0
+    },
     "classify": {
       "in": 0.049999999999999996,
       "cached": 0.024999999999999998,
@@ -10306,6 +10408,12 @@
       "cache_write": 0.351,
       "out": 0.5549999999999999
     },
+    "cloudflare/@cf/cloudflare/clairic": {
+      "in": 0.09999999999999999,
+      "cached": 0.049999999999999996,
+      "cache_write": 0.09999999999999999,
+      "out": 0.0
+    },
     "cloudflare/@cf/cloudflare/clef": {
       "in": 0.24,
       "cached": 0.12,
@@ -10497,6 +10605,12 @@
       "cached": 0.9615,
       "cache_write": 1.923,
       "out": 1.923
+    },
+    "cloudflare/clairic": {
+      "in": 0.09999999999999999,
+      "cached": 0.049999999999999996,
+      "cache_write": 0.09999999999999999,
+      "out": 0.0
     },
     "cloudflare/clef": {
       "in": 0.24,
@@ -13564,6 +13678,12 @@
       "cache_write": 0.3,
       "out": 1.2
     },
+    "deepseek-v4p1-flash-1017-us": {
+      "in": 0.44999999999999996,
+      "cached": 0.009,
+      "cache_write": 0.44999999999999996,
+      "out": 1.7999999999999998
+    },
     "deepseek-v4p1-flash-us": {
       "in": 0.44999999999999996,
       "cached": 0.009,
@@ -13894,7 +14014,19 @@
       "cache_write": 0.4822,
       "out": 2.411
     },
+    "doubao-seed-2-1-lite-260915": {
+      "in": 0.11499999999999999,
+      "cached": 0.023,
+      "cache_write": 0.11499999999999999,
+      "out": 0.388126
+    },
     "doubao-seed-2-1-pro-260628": {
+      "in": 0.8625,
+      "cached": 0.1725,
+      "cache_write": 0.8625,
+      "out": 4.3125
+    },
+    "doubao-seed-2-1-pro-260915": {
       "in": 0.8625,
       "cached": 0.1725,
       "cache_write": 0.8625,
@@ -14464,6 +14596,12 @@
       "cache_write": 0.11,
       "out": 0.44
     },
+    "eu/gpt-4o": {
+      "in": 2.75,
+      "cached": 1.375,
+      "cache_write": 1.38,
+      "out": 11.0
+    },
     "eu/gpt-4o-2024-05-13": {
       "in": 5.5,
       "cached": 2.75,
@@ -14481,6 +14619,12 @@
       "cached": 1.375,
       "cache_write": 1.38,
       "out": 11.0
+    },
+    "eu/gpt-4o-mini": {
+      "in": 0.165,
+      "cached": 0.083,
+      "cache_write": 0.165,
+      "out": 0.66
     },
     "eu/gpt-4o-mini-2024-07-18": {
       "in": 0.165,
@@ -14716,6 +14860,12 @@
       "cache_write": 3.0,
       "out": 12.0
     },
+    "eu/o1": {
+      "in": 16.5,
+      "cached": 8.25,
+      "cache_write": 16.5,
+      "out": 66.0
+    },
     "eu/o1-2024-12-17": {
       "in": 16.5,
       "cached": 8.25,
@@ -14740,6 +14890,12 @@
       "cache_write": 16.5,
       "out": 66.0
     },
+    "eu/o3": {
+      "in": 2.2,
+      "cached": 0.55,
+      "cache_write": 2.2,
+      "out": 8.8
+    },
     "eu/o3-2025-04-16": {
       "in": 2.2,
       "cached": 0.55,
@@ -14752,9 +14908,21 @@
       "cache_write": 11.0,
       "out": 44.0
     },
+    "eu/o3-mini": {
+      "in": 1.21,
+      "cached": 0.605,
+      "cache_write": 1.21,
+      "out": 4.84
+    },
     "eu/o3-mini-2025-01-31": {
       "in": 1.21,
       "cached": 0.605,
+      "cache_write": 1.21,
+      "out": 4.84
+    },
+    "eu/o4-mini": {
+      "in": 1.21,
+      "cached": 0.303,
       "cache_write": 1.21,
       "out": 4.84
     },
@@ -15237,6 +15405,12 @@
       "cached": 0.006,
       "cache_write": 0.3,
       "out": 1.2
+    },
+    "fireworks_ai/accounts/fireworks/models/deepseek-v4p1-flash-1017-us": {
+      "in": 0.44999999999999996,
+      "cached": 0.009,
+      "cache_write": 0.44999999999999996,
+      "out": 1.7999999999999998
     },
     "fireworks_ai/accounts/fireworks/models/devstral-small-2505": {
       "in": 0.8999999999999999,
@@ -30353,10 +30527,10 @@
       "out": 0.0
     },
     "reflection/Beam-1.0": {
-      "in": 1.3,
-      "cached": 0.13,
-      "cache_write": 1.3,
-      "out": 4.300000000000001
+      "in": 0.39999999999999997,
+      "cached": 0.04,
+      "cache_write": 0.39999999999999997,
+      "out": 1.2
     },
     "reflection/Beam-1.0-501B-A23B": {
       "in": 0.39999999999999997,
@@ -33550,6 +33724,12 @@
       "cache_write": 0.11,
       "out": 0.44
     },
+    "us/gpt-4o": {
+      "in": 2.75,
+      "cached": 1.375,
+      "cache_write": 1.38,
+      "out": 11.0
+    },
     "us/gpt-4o-2024-05-13": {
       "in": 5.5,
       "cached": 2.75,
@@ -33567,6 +33747,12 @@
       "cached": 1.375,
       "cache_write": 1.38,
       "out": 11.0
+    },
+    "us/gpt-4o-mini": {
+      "in": 0.165,
+      "cached": 0.083,
+      "cache_write": 0.165,
+      "out": 0.66
     },
     "us/gpt-4o-mini-2024-07-18": {
       "in": 0.165,
@@ -33808,6 +33994,12 @@
       "cache_write": 5.5,
       "out": 33.0
     },
+    "us/o1": {
+      "in": 16.5,
+      "cached": 8.25,
+      "cache_write": 16.5,
+      "out": 66.0
+    },
     "us/o1-2024-12-17": {
       "in": 16.5,
       "cached": 8.25,
@@ -33832,6 +34024,12 @@
       "cache_write": 16.5,
       "out": 66.0
     },
+    "us/o3": {
+      "in": 2.2,
+      "cached": 0.55,
+      "cache_write": 2.2,
+      "out": 8.8
+    },
     "us/o3-2025-04-16": {
       "in": 2.2,
       "cached": 0.55,
@@ -33844,9 +34042,21 @@
       "cache_write": 11.0,
       "out": 44.0
     },
+    "us/o3-mini": {
+      "in": 1.21,
+      "cached": 0.605,
+      "cache_write": 1.21,
+      "out": 4.84
+    },
     "us/o3-mini-2025-01-31": {
       "in": 1.21,
       "cached": 0.605,
+      "cache_write": 1.21,
+      "out": 4.84
+    },
+    "us/o4-mini": {
+      "in": 1.21,
+      "cached": 0.303,
       "cache_write": 1.21,
       "out": 4.84
     },
@@ -35428,7 +35638,19 @@
       "cache_write": 0.0,
       "out": 0.0
     },
+    "volcengine/doubao-seed-2-1-lite-260915": {
+      "in": 0.11499999999999999,
+      "cached": 0.023,
+      "cache_write": 0.11499999999999999,
+      "out": 0.388126
+    },
     "volcengine/doubao-seed-2-1-pro-260628": {
+      "in": 0.8625,
+      "cached": 0.1725,
+      "cache_write": 0.8625,
+      "out": 4.3125
+    },
+    "volcengine/doubao-seed-2-1-pro-260915": {
       "in": 0.8625,
       "cached": 0.1725,
       "cache_write": 0.8625,
@@ -35950,11 +36172,23 @@
       "cache_write": 0.03,
       "out": 0.13
     },
+    "wandb/reflection/Beam-1.0-501B-A23B": {
+      "in": 1.0,
+      "cached": 0.09999999999999999,
+      "cache_write": 1.0,
+      "out": 3.0
+    },
     "wandb/zai-org/GLM-5.2": {
       "in": 0.76,
       "cached": 0.14,
       "cache_write": 0.76,
       "out": 2.42
+    },
+    "wandb/zai-org/GLM-5.3": {
+      "in": 1.2,
+      "cached": 0.19,
+      "cache_write": 1.2,
+      "out": 4.0
     },
     "wandb/zai-org/GLM-5.3-Flash": {
       "in": 0.15,
