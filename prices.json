@@ -1,6 +1,6 @@
 {
-  "version": "2026-10-23",
-  "updated": "2026-10-23T11:32:18Z",
+  "version": "2026-10-24",
+  "updated": "2026-10-24T10:52:01Z",
   "source": "litellm",
   "mode": "replace",
   "rates": {
@@ -1252,6 +1252,12 @@
       "cache_write": 0.39,
       "out": 1.56
     },
+    "MiniMax-M3.1-Flash": {
+      "in": 0.15,
+      "cached": 0.015,
+      "cache_write": 0.15,
+      "out": 0.6
+    },
     "MiniMaxAI/MiniMax-M2.1": {
       "in": 0.3,
       "cached": 0.15,
@@ -1281,6 +1287,12 @@
       "cached": 0.08,
       "cache_write": 0.39,
       "out": 1.56
+    },
+    "MiniMaxAI/MiniMax-M3.1-Flash": {
+      "in": 0.15,
+      "cached": 0.015,
+      "cache_write": 0.15,
+      "out": 0.6
     },
     "Ministral-3-14B-Instruct-2512": {
       "in": 0.19999999999999998,
@@ -32025,6 +32037,12 @@
       "cached": 0.06,
       "cache_write": 0.3,
       "out": 1.2
+    },
+    "together_ai/MiniMaxAI/MiniMax-M3.1-Flash": {
+      "in": 0.15,
+      "cached": 0.015,
+      "cache_write": 0.15,
+      "out": 0.6
     },
     "together_ai/NousResearch/Nous-Hermes-2-Mixtral-8x7B-DPO": {
       "in": 0.6,
