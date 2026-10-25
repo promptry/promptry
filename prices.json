@@ -1,6 +1,6 @@
 {
-  "version": "2026-10-24",
-  "updated": "2026-10-24T10:52:01Z",
+  "version": "2026-10-25",
+  "updated": "2026-10-25T11:18:33Z",
   "source": "litellm",
   "mode": "replace",
   "rates": {
@@ -8548,6 +8548,12 @@
       "cache_write": 0.25,
       "out": 1.0
     },
+    "beam-free": {
+      "in": 0.0,
+      "cached": 0.0,
+      "cache_write": 0.0,
+      "out": 0.0
+    },
     "bedrock/ap-northeast-1/anthropic.claude-instant-v1": {
       "in": 2.23,
       "cached": 1.115,
@@ -8715,6 +8721,90 @@
       "cached": 0.175,
       "cache_write": 0.35,
       "out": 0.69
+    },
+    "bedrock/claude_platform/claude-fable-5": {
+      "in": 10.0,
+      "cached": 1.0,
+      "cache_write": 12.5,
+      "out": 50.0
+    },
+    "bedrock/claude_platform/claude-fable-5-1": {
+      "in": 10.0,
+      "cached": 0.25,
+      "cache_write": 12.5,
+      "out": 50.0
+    },
+    "bedrock/claude_platform/claude-haiku-4-5": {
+      "in": 1.0,
+      "cached": 0.09999999999999999,
+      "cache_write": 1.25,
+      "out": 5.0
+    },
+    "bedrock/claude_platform/claude-haiku-5-5": {
+      "in": 0.09999999999999999,
+      "cached": 0.01,
+      "cache_write": 0.125,
+      "out": 0.5
+    },
+    "bedrock/claude_platform/claude-opus-4-5": {
+      "in": 5.0,
+      "cached": 0.5,
+      "cache_write": 6.25,
+      "out": 25.0
+    },
+    "bedrock/claude_platform/claude-opus-4-6": {
+      "in": 5.0,
+      "cached": 0.5,
+      "cache_write": 6.25,
+      "out": 25.0
+    },
+    "bedrock/claude_platform/claude-opus-4-7": {
+      "in": 5.0,
+      "cached": 0.5,
+      "cache_write": 6.25,
+      "out": 25.0
+    },
+    "bedrock/claude_platform/claude-opus-4-8": {
+      "in": 5.0,
+      "cached": 0.5,
+      "cache_write": 6.25,
+      "out": 25.0
+    },
+    "bedrock/claude_platform/claude-opus-5": {
+      "in": 5.0,
+      "cached": 0.5,
+      "cache_write": 6.25,
+      "out": 25.0
+    },
+    "bedrock/claude_platform/claude-opus-5-5": {
+      "in": 4.0,
+      "cached": 0.19999999999999998,
+      "cache_write": 5.0,
+      "out": 20.0
+    },
+    "bedrock/claude_platform/claude-sonnet-4-5": {
+      "in": 3.0,
+      "cached": 0.3,
+      "cache_write": 3.75,
+      "out": 15.0
+    },
+    "bedrock/claude_platform/claude-sonnet-4-6": {
+      "in": 3.0,
+      "cached": 0.3,
+      "cache_write": 3.75,
+      "out": 15.0
+    },
+    "bedrock/claude_platform/claude-sonnet-5": {
+      "in": 2.0,
+      "cached": 0.19999999999999998,
+      "cache_write": 2.5,
+      "out": 10.0
+    },
+    "bedrock/claude_platform/claude-sonnet-5-5": {
+      "in": 2.0,
+      "cached": 0.09999999999999999,
+      "cache_write": 2.5,
+      "out": 10.0
     },
     "bedrock/eu-central-1/anthropic.claude-instant-v1": {
       "in": 2.48,
@@ -9886,6 +9976,18 @@
       "cache_write": 0.35,
       "out": 0.75
     },
+    "cerebras/llama-3.1-70b": {
+      "in": 0.6,
+      "cached": 0.3,
+      "cache_write": 0.6,
+      "out": 0.6
+    },
+    "cerebras/llama-3.1-8b": {
+      "in": 0.09999999999999999,
+      "cached": 0.049999999999999996,
+      "cache_write": 0.09999999999999999,
+      "out": 0.09999999999999999
+    },
     "cerebras/llama-3.3-70b": {
       "in": 0.85,
       "cached": 0.425,
@@ -10393,6 +10495,90 @@
     "claude-sonnet-5@default": {
       "in": 2.0,
       "cached": 0.19999999999999998,
+      "cache_write": 2.5,
+      "out": 10.0
+    },
+    "claude_platform/claude-fable-5": {
+      "in": 10.0,
+      "cached": 1.0,
+      "cache_write": 12.5,
+      "out": 50.0
+    },
+    "claude_platform/claude-fable-5-1": {
+      "in": 10.0,
+      "cached": 0.25,
+      "cache_write": 12.5,
+      "out": 50.0
+    },
+    "claude_platform/claude-haiku-4-5": {
+      "in": 1.0,
+      "cached": 0.09999999999999999,
+      "cache_write": 1.25,
+      "out": 5.0
+    },
+    "claude_platform/claude-haiku-5-5": {
+      "in": 0.09999999999999999,
+      "cached": 0.01,
+      "cache_write": 0.125,
+      "out": 0.5
+    },
+    "claude_platform/claude-opus-4-5": {
+      "in": 5.0,
+      "cached": 0.5,
+      "cache_write": 6.25,
+      "out": 25.0
+    },
+    "claude_platform/claude-opus-4-6": {
+      "in": 5.0,
+      "cached": 0.5,
+      "cache_write": 6.25,
+      "out": 25.0
+    },
+    "claude_platform/claude-opus-4-7": {
+      "in": 5.0,
+      "cached": 0.5,
+      "cache_write": 6.25,
+      "out": 25.0
+    },
+    "claude_platform/claude-opus-4-8": {
+      "in": 5.0,
+      "cached": 0.5,
+      "cache_write": 6.25,
+      "out": 25.0
+    },
+    "claude_platform/claude-opus-5": {
+      "in": 5.0,
+      "cached": 0.5,
+      "cache_write": 6.25,
+      "out": 25.0
+    },
+    "claude_platform/claude-opus-5-5": {
+      "in": 4.0,
+      "cached": 0.19999999999999998,
+      "cache_write": 5.0,
+      "out": 20.0
+    },
+    "claude_platform/claude-sonnet-4-5": {
+      "in": 3.0,
+      "cached": 0.3,
+      "cache_write": 3.75,
+      "out": 15.0
+    },
+    "claude_platform/claude-sonnet-4-6": {
+      "in": 3.0,
+      "cached": 0.3,
+      "cache_write": 3.75,
+      "out": 15.0
+    },
+    "claude_platform/claude-sonnet-5": {
+      "in": 2.0,
+      "cached": 0.19999999999999998,
+      "cache_write": 2.5,
+      "out": 10.0
+    },
+    "claude_platform/claude-sonnet-5-5": {
+      "in": 2.0,
+      "cached": 0.09999999999999999,
       "cache_write": 2.5,
       "out": 10.0
     },
@@ -21718,6 +21904,12 @@
       "cache_write": 4.5,
       "out": 22.5
     },
+    "kimi-k3.1-pro": {
+      "in": 2.0,
+      "cached": 0.2,
+      "cache_write": 2.0,
+      "out": 10.0
+    },
     "kwaipilot/kat-coder-pro": {
       "in": 0.3,
       "cached": 0.06,
@@ -22139,10 +22331,10 @@
       "out": 16.0
     },
     "llama-3.1-70b": {
-      "in": 0.72,
-      "cached": 0.36,
-      "cache_write": 0.72,
-      "out": 0.72
+      "in": 0.6,
+      "cached": 0.3,
+      "cache_write": 0.6,
+      "out": 0.6
     },
     "llama-3.1-70b-instruct": {
       "in": 1.0,
@@ -22157,10 +22349,10 @@
       "out": 0.0
     },
     "llama-3.1-8b": {
-      "in": 0.049999999999999996,
-      "cached": 0.024999999999999998,
-      "cache_write": 0.049999999999999996,
-      "out": 0.08
+      "in": 0.09999999999999999,
+      "cached": 0.049999999999999996,
+      "cache_write": 0.09999999999999999,
+      "out": 0.09999999999999999
     },
     "llama-3.1-8b-instant": {
       "in": 0.19999999999999998,
@@ -22797,6 +22989,12 @@
       "cached": 0.015492,
       "cache_write": 0.7746,
       "out": 3.0984
+    },
+    "longcat-2.5-preview-free": {
+      "in": 0.0,
+      "cached": 0.0,
+      "cache_write": 0.0,
+      "out": 0.0
     },
     "lukealonso/GLM-5.1-NVFP4-MTP": {
       "in": 1.4,
@@ -23727,6 +23925,12 @@
       "cached": 0.06,
       "cache_write": 0.3,
       "out": 1.2
+    },
+    "minimax-m3.1-flash": {
+      "in": 0.15,
+      "cached": 0.015,
+      "cache_write": 0.15,
+      "out": 0.6
     },
     "minimax-m3p1-flash": {
       "in": 0.15,
@@ -24771,6 +24975,12 @@
       "cached": 0.14,
       "cache_write": 1.4,
       "out": 4.4
+    },
+    "mistral/zai-glm-5-3-flash": {
+      "in": 0.15,
+      "cached": 0.03,
+      "cache_write": 0.15,
+      "out": 0.5
     },
     "mistral/zai-glm-latest": {
       "in": 1.4,
@@ -28053,6 +28263,186 @@
       "cached": 0.09999999999999999,
       "cache_write": 0.19999999999999998,
       "out": 0.19999999999999998
+    },
+    "opencode_go/beam-free": {
+      "in": 0.0,
+      "cached": 0.0,
+      "cache_write": 0.0,
+      "out": 0.0
+    },
+    "opencode_go/claude-haiku-5-5": {
+      "in": 0.1,
+      "cached": 0.01,
+      "cache_write": 0.125,
+      "out": 0.5
+    },
+    "opencode_go/deepseek-v4-pro": {
+      "in": 1.32,
+      "cached": 0.044,
+      "cache_write": 1.32,
+      "out": 3.9600000000000004
+    },
+    "opencode_go/deepseek-v4.1-flash": {
+      "in": 0.3,
+      "cached": 0.006,
+      "cache_write": 0.3,
+      "out": 1.2
+    },
+    "opencode_go/gemini-4-argon": {
+      "in": 2.0,
+      "cached": 0.09999999999999999,
+      "cache_write": 2.0,
+      "out": 10.0
+    },
+    "opencode_go/glm-5.2": {
+      "in": 1.4,
+      "cached": 0.26,
+      "cache_write": 1.4,
+      "out": 4.4
+    },
+    "opencode_go/glm-5.3": {
+      "in": 1.4,
+      "cached": 0.26,
+      "cache_write": 1.4,
+      "out": 4.4
+    },
+    "opencode_go/glm-5.3-flash": {
+      "in": 0.15,
+      "cached": 0.03,
+      "cache_write": 0.15,
+      "out": 0.5
+    },
+    "opencode_go/gpt-5.6-luna": {
+      "in": 0.2,
+      "cached": 0.02,
+      "cache_write": 0.25,
+      "out": 1.2
+    },
+    "opencode_go/gpt-6-luna": {
+      "in": 0.1,
+      "cached": 0.01,
+      "cache_write": 0.125,
+      "out": 0.5
+    },
+    "opencode_go/grok-4.7": {
+      "in": 2.0,
+      "cached": 0.5,
+      "cache_write": 2.0,
+      "out": 6.0
+    },
+    "opencode_go/hy3": {
+      "in": 0.14,
+      "cached": 0.035,
+      "cache_write": 0.14,
+      "out": 0.58
+    },
+    "opencode_go/hy4-preview": {
+      "in": 0.834,
+      "cached": 0.042,
+      "cache_write": 0.834,
+      "out": 2.501
+    },
+    "opencode_go/kimi-k2.7-code": {
+      "in": 0.95,
+      "cached": 0.19,
+      "cache_write": 0.95,
+      "out": 4.0
+    },
+    "opencode_go/kimi-k3": {
+      "in": 3.0,
+      "cached": 0.3,
+      "cache_write": 3.0,
+      "out": 15.0
+    },
+    "opencode_go/kimi-k3.1-pro": {
+      "in": 2.0,
+      "cached": 0.2,
+      "cache_write": 2.0,
+      "out": 10.0
+    },
+    "opencode_go/longcat-2.0": {
+      "in": 0.3,
+      "cached": 0.006,
+      "cache_write": 0.3,
+      "out": 1.2
+    },
+    "opencode_go/longcat-2.5-preview-free": {
+      "in": 0.0,
+      "cached": 0.0,
+      "cache_write": 0.0,
+      "out": 0.0
+    },
+    "opencode_go/mimo-v2.5": {
+      "in": 0.14,
+      "cached": 0.0028,
+      "cache_write": 0.14,
+      "out": 0.28
+    },
+    "opencode_go/mimo-v2.5-pro": {
+      "in": 0.435,
+      "cached": 0.003625,
+      "cache_write": 0.435,
+      "out": 0.87
+    },
+    "opencode_go/mimo-v2.6-flash": {
+      "in": 0.14,
+      "cached": 0.0028,
+      "cache_write": 0.14,
+      "out": 0.28
+    },
+    "opencode_go/mimo-v2.6-pro": {
+      "in": 0.435,
+      "cached": 0.003625,
+      "cache_write": 0.435,
+      "out": 0.87
+    },
+    "opencode_go/minimax-m3": {
+      "in": 0.3,
+      "cached": 0.06,
+      "cache_write": 0.3,
+      "out": 1.2
+    },
+    "opencode_go/minimax-m3.1-flash": {
+      "in": 0.15,
+      "cached": 0.015,
+      "cache_write": 0.15,
+      "out": 0.6
+    },
+    "opencode_go/muse-spark-1.2-contributor": {
+      "in": 0.1,
+      "cached": 0.002,
+      "cache_write": 0.1,
+      "out": 0.2
+    },
+    "opencode_go/muse-spark-1.3-contributor": {
+      "in": 0.1,
+      "cached": 0.002,
+      "cache_write": 0.1,
+      "out": 0.2
+    },
+    "opencode_go/qwen3.7-plus": {
+      "in": 0.4,
+      "cached": 0.04,
+      "cache_write": 0.5,
+      "out": 1.6
+    },
+    "opencode_go/qwen3.8-flash": {
+      "in": 0.15,
+      "cached": 0.016,
+      "cache_write": 0.2,
+      "out": 0.47
+    },
+    "opencode_go/qwen3.8-max": {
+      "in": 2.0,
+      "cached": 0.25,
+      "cache_write": 2.5,
+      "out": 6.0
+    },
+    "opencode_go/step-5-preview": {
+      "in": 1.0,
+      "cached": 0.1,
+      "cache_write": 1.0,
+      "out": 2.7
     },
     "openhermes-2-mistral-7b": {
       "in": 0.19999999999999998,
@@ -31623,6 +32013,12 @@
       "cached": 0.04,
       "cache_write": 0.2,
       "out": 1.15
+    },
+    "step-5-preview": {
+      "in": 1.0,
+      "cached": 0.1,
+      "cache_write": 1.0,
+      "out": 2.7
     },
     "stepfun-ai/Step-3.7-Flash": {
       "in": 0.19999999999999998,
@@ -36909,6 +37305,12 @@
       "cached": 0.14,
       "cache_write": 1.4,
       "out": 4.4
+    },
+    "zai-glm-5-3-flash": {
+      "in": 0.15,
+      "cached": 0.03,
+      "cache_write": 0.15,
+      "out": 0.5
     },
     "zai-glm-latest": {
       "in": 1.4,
