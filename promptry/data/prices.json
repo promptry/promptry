@@ -1,6 +1,6 @@
 {
-  "version": "2026-10-29",
-  "updated": "2026-10-29T12:54:02Z",
+  "version": "2026-10-30",
+  "updated": "2026-10-30T12:47:06Z",
   "source": "litellm",
   "mode": "replace",
   "rates": {
@@ -1913,10 +1913,10 @@
       "out": 3.0
     },
     "Qwen/Qwen3.7-Max": {
-      "in": 2.5,
-      "cached": 0.5,
-      "cache_write": 2.5,
-      "out": 7.5
+      "in": 1.5,
+      "cached": 0.3,
+      "cache_write": 1.5,
+      "out": 4.5
     },
     "Qwen/Qwen3.7-Plus": {
       "in": 0.32,
@@ -2255,10 +2255,10 @@
       "out": 3.0
     },
     "Qwen3.7-Max": {
-      "in": 2.5,
-      "cached": 0.5,
-      "cache_write": 2.5,
-      "out": 7.5
+      "in": 1.5,
+      "cached": 0.3,
+      "cache_write": 1.5,
+      "out": 4.5
     },
     "Qwen3.7-Plus": {
       "in": 0.32,
@@ -4113,6 +4113,12 @@
       "cached": 0.09999999999999999,
       "cache_write": 0.19999999999999998,
       "out": 0.19999999999999998
+    },
+    "accounts/fireworks/models/ultramarine-1-flash-us": {
+      "in": 0.22499999999999998,
+      "cached": 0.045,
+      "cache_write": 0.22499999999999998,
+      "out": 0.75
     },
     "accounts/fireworks/models/yi-34b": {
       "in": 0.8999999999999999,
@@ -8590,6 +8596,12 @@
       "cache_write": 0.035,
       "out": 0.0
     },
+    "baseten-joey-2b-latest": {
+      "in": 0.01,
+      "cached": 0.005,
+      "cache_write": 0.01,
+      "out": 0.0
+    },
     "baseten-mammoth-27b-latest": {
       "in": 0.09999999999999999,
       "cached": 0.049999999999999996,
@@ -8606,6 +8618,12 @@
       "in": 0.035,
       "cached": 0.0175,
       "cache_write": 0.035,
+      "out": 0.0
+    },
+    "baseten/decision-models/baseten-joey-2b-latest": {
+      "in": 0.01,
+      "cached": 0.005,
+      "cache_write": 0.01,
       "out": 0.0
     },
     "baseten/decision-models/baseten-mammoth-27b-latest": {
@@ -10918,6 +10936,66 @@
       "cache_write": 0.15,
       "out": 0.0
     },
+    "clf_ai_gateway/deepseek-v4-flash": {
+      "in": 0.176,
+      "cached": 0.005,
+      "cache_write": 0.176,
+      "out": 0.5279999999999999
+    },
+    "clf_ai_gateway/deepseek-v4-pro": {
+      "in": 0.5279999999999999,
+      "cached": 0.017,
+      "cache_write": 0.5279999999999999,
+      "out": 1.584
+    },
+    "clf_ai_gateway/deepseek-v4.1-flash": {
+      "in": 0.12,
+      "cached": 0.002,
+      "cache_write": 0.12,
+      "out": 0.48
+    },
+    "clf_ai_gateway/glm-4.7-flash": {
+      "in": 0.024,
+      "cached": 0.012,
+      "cache_write": 0.024,
+      "out": 0.16
+    },
+    "clf_ai_gateway/glm-5.2": {
+      "in": 0.56,
+      "cached": 0.10400000000000001,
+      "cache_write": 0.56,
+      "out": 1.76
+    },
+    "clf_ai_gateway/glm-5.3": {
+      "in": 0.56,
+      "cached": 0.10400000000000001,
+      "cache_write": 0.56,
+      "out": 1.76
+    },
+    "clf_ai_gateway/glm-5.3-flash": {
+      "in": 0.06,
+      "cached": 0.012,
+      "cache_write": 0.06,
+      "out": 0.19999999999999998
+    },
+    "clf_ai_gateway/kimi-k2.6": {
+      "in": 0.38,
+      "cached": 0.064,
+      "cache_write": 0.38,
+      "out": 1.5999999999999999
+    },
+    "clf_ai_gateway/kimi-k2.7-code": {
+      "in": 0.38,
+      "cached": 0.07600000000000001,
+      "cache_write": 0.38,
+      "out": 1.5999999999999999
+    },
+    "clf_ai_gateway/qwen3.8-27b": {
+      "in": 0.18,
+      "cached": 0.02,
+      "cache_write": 0.18,
+      "out": 1.28
+    },
     "cloudflare/@cf/aisingapore/gemma-sea-lion-v4-27b-it": {
       "in": 0.351,
       "cached": 0.1755,
@@ -11908,6 +11986,12 @@
       "cache_write": 0.95,
       "out": 4.0
     },
+    "dashscope/qwen-audio-3.1-tts-flash": {
+      "in": 0.22999999999999998,
+      "cached": 0.11499999999999999,
+      "cache_write": 0.22999999999999998,
+      "out": 1.87
+    },
     "dashscope/qwen-coder": {
       "in": 0.3,
       "cached": 0.15,
@@ -12113,10 +12197,10 @@
       "out": 19.99998
     },
     "databricks-claude-sonnet-4": {
-      "in": 2.9999900000000004,
+      "in": 2.99999,
       "cached": 0.30002,
       "cache_write": 3.7499700000000002,
-      "out": 15.000020000000001
+      "out": 15.00002
     },
     "databricks-claude-sonnet-4-1": {
       "in": 2.9999900000000004,
@@ -12212,7 +12296,7 @@
       "in": 2.49998,
       "cached": 0.24997,
       "cache_write": 2.49998,
-      "out": 15.000020000000001
+      "out": 15.00002
     },
     "databricks-gemini-3-5-flash": {
       "in": 1.87502,
@@ -12269,7 +12353,7 @@
       "out": 12.49997
     },
     "databricks-gemma-3-12b": {
-      "in": 0.15000999999999998,
+      "in": 0.15001,
       "cached": 0.15001,
       "cache_write": 0.15001,
       "out": 0.5000100000000001
@@ -12296,13 +12380,13 @@
       "in": 1.24999,
       "cached": 0.12502,
       "cache_write": 1.24999,
-      "out": 9.999990000000002
+      "out": 9.99999
     },
     "databricks-gpt-5-1": {
       "in": 1.24999,
       "cached": 0.12502,
       "cache_write": 1.24999,
-      "out": 9.999990000000002
+      "out": 9.99999
     },
     "databricks-gpt-5-2": {
       "in": 1.75,
@@ -12320,7 +12404,7 @@
       "in": 2.49998,
       "cached": 0.24997,
       "cache_write": 2.49998,
-      "out": 15.000020000000001
+      "out": 15.00002
     },
     "databricks-gpt-5-4-mini": {
       "in": 0.74998,
@@ -12371,16 +12455,16 @@
       "out": 12.00003
     },
     "databricks-gpt-5-mini": {
-      "in": 0.24997000000000005,
+      "in": 0.24997,
       "cached": 0.024990000000000002,
       "cache_write": 0.24997,
-      "out": 1.9999700000000002
+      "out": 1.99997
     },
     "databricks-gpt-5-nano": {
       "in": 0.049980000000000004,
       "cached": 0.00497,
       "cache_write": 0.049980000000000004,
-      "out": 0.39998000000000006
+      "out": 0.39998
     },
     "databricks-gpt-6-1-sol": {
       "in": 1.99997,
@@ -12437,7 +12521,7 @@
       "out": 0.0
     },
     "databricks-gpt-oss-120b": {
-      "in": 0.15000999999999998,
+      "in": 0.15001,
       "cached": 0.15001,
       "cache_write": 0.15001,
       "out": 0.59997
@@ -12446,7 +12530,7 @@
       "in": 0.07,
       "cached": 0.07,
       "cache_write": 0.07,
-      "out": 0.30001999999999995
+      "out": 0.30002
     },
     "databricks-grok-4-6": {
       "in": 2.49998,
@@ -12461,7 +12545,7 @@
       "out": 7.50001
     },
     "databricks-gte-large-en": {
-      "in": 0.12999000000000002,
+      "in": 0.12999,
       "cached": 0.12999,
       "cache_write": 0.12999,
       "out": 0.0
@@ -12488,10 +12572,10 @@
       "in": 0.5000100000000001,
       "cached": 0.5000100000000001,
       "cache_write": 0.5000100000000001,
-      "out": 1.5000300000000002
+      "out": 1.50003
     },
     "databricks-meta-llama-3-1-8b-instruct": {
-      "in": 0.15000999999999998,
+      "in": 0.15001,
       "cached": 0.15001,
       "cache_write": 0.15001,
       "out": 0.45003000000000004
@@ -12500,7 +12584,7 @@
       "in": 0.5000100000000001,
       "cached": 0.5000100000000001,
       "cache_write": 0.5000100000000001,
-      "out": 1.5000300000000002
+      "out": 1.50003
     },
     "databricks-openjev-qwen35-4b": {
       "in": 0.041999999999999996,
@@ -12617,10 +12701,10 @@
       "out": 19.99998
     },
     "databricks/databricks-claude-sonnet-4": {
-      "in": 2.9999900000000004,
+      "in": 2.99999,
       "cached": 0.30002,
       "cache_write": 3.7499700000000002,
-      "out": 15.000020000000001
+      "out": 15.00002
     },
     "databricks/databricks-claude-sonnet-4-1": {
       "in": 2.9999900000000004,
@@ -12716,7 +12800,7 @@
       "in": 2.49998,
       "cached": 0.24997,
       "cache_write": 2.49998,
-      "out": 15.000020000000001
+      "out": 15.00002
     },
     "databricks/databricks-gemini-3-5-flash": {
       "in": 1.87502,
@@ -12773,7 +12857,7 @@
       "out": 12.49997
     },
     "databricks/databricks-gemma-3-12b": {
-      "in": 0.15000999999999998,
+      "in": 0.15001,
       "cached": 0.15001,
       "cache_write": 0.15001,
       "out": 0.5000100000000001
@@ -12800,13 +12884,13 @@
       "in": 1.24999,
       "cached": 0.12502,
       "cache_write": 1.24999,
-      "out": 9.999990000000002
+      "out": 9.99999
     },
     "databricks/databricks-gpt-5-1": {
       "in": 1.24999,
       "cached": 0.12502,
       "cache_write": 1.24999,
-      "out": 9.999990000000002
+      "out": 9.99999
     },
     "databricks/databricks-gpt-5-2": {
       "in": 1.75,
@@ -12824,7 +12908,7 @@
       "in": 2.49998,
       "cached": 0.24997,
       "cache_write": 2.49998,
-      "out": 15.000020000000001
+      "out": 15.00002
     },
     "databricks/databricks-gpt-5-4-mini": {
       "in": 0.74998,
@@ -12875,16 +12959,16 @@
       "out": 12.00003
     },
     "databricks/databricks-gpt-5-mini": {
-      "in": 0.24997000000000005,
+      "in": 0.24997,
       "cached": 0.024990000000000002,
       "cache_write": 0.24997,
-      "out": 1.9999700000000002
+      "out": 1.99997
     },
     "databricks/databricks-gpt-5-nano": {
       "in": 0.049980000000000004,
       "cached": 0.00497,
       "cache_write": 0.049980000000000004,
-      "out": 0.39998000000000006
+      "out": 0.39998
     },
     "databricks/databricks-gpt-6-1-sol": {
       "in": 1.99997,
@@ -12941,7 +13025,7 @@
       "out": 0.0
     },
     "databricks/databricks-gpt-oss-120b": {
-      "in": 0.15000999999999998,
+      "in": 0.15001,
       "cached": 0.15001,
       "cache_write": 0.15001,
       "out": 0.59997
@@ -12950,7 +13034,7 @@
       "in": 0.07,
       "cached": 0.07,
       "cache_write": 0.07,
-      "out": 0.30001999999999995
+      "out": 0.30002
     },
     "databricks/databricks-grok-4-6": {
       "in": 2.49998,
@@ -12965,7 +13049,7 @@
       "out": 7.50001
     },
     "databricks/databricks-gte-large-en": {
-      "in": 0.12999000000000002,
+      "in": 0.12999,
       "cached": 0.12999,
       "cache_write": 0.12999,
       "out": 0.0
@@ -12992,10 +13076,10 @@
       "in": 0.5000100000000001,
       "cached": 0.5000100000000001,
       "cache_write": 0.5000100000000001,
-      "out": 1.5000300000000002
+      "out": 1.50003
     },
     "databricks/databricks-meta-llama-3-1-8b-instruct": {
-      "in": 0.15000999999999998,
+      "in": 0.15001,
       "cached": 0.15001,
       "cache_write": 0.15001,
       "out": 0.45003000000000004
@@ -13004,7 +13088,7 @@
       "in": 0.5000100000000001,
       "cached": 0.5000100000000001,
       "cache_write": 0.5000100000000001,
-      "out": 1.5000300000000002
+      "out": 1.50003
     },
     "databricks/databricks-openjev-qwen35-4b": {
       "in": 0.041999999999999996,
@@ -13064,6 +13148,12 @@
       "in": 0.035,
       "cached": 0.0175,
       "cache_write": 0.035,
+      "out": 0.0
+    },
+    "decision-models/baseten-joey-2b-latest": {
+      "in": 0.01,
+      "cached": 0.005,
+      "cache_write": 0.01,
       "out": 0.0
     },
     "decision-models/baseten-mammoth-27b-latest": {
@@ -15094,6 +15184,18 @@
       "cache_write": 0.6,
       "out": 1.44
     },
+    "eu-jeff-1.0.0": {
+      "in": 0.0415,
+      "cached": 0.02075,
+      "cache_write": 0.0415,
+      "out": 0.0
+    },
+    "eu-jeff-latest": {
+      "in": 0.0415,
+      "cached": 0.02075,
+      "cache_write": 0.0415,
+      "out": 0.0
+    },
     "eu-north-1/deepseek.v3.2": {
       "in": 0.74,
       "cached": 0.37,
@@ -15315,12 +15417,6 @@
       "cached": 0.275,
       "cache_write": 13.75,
       "out": 55.0
-    },
-    "eu.anthropic.claude-haiku-4-5-20251001-v1:0": {
-      "in": 1.1,
-      "cached": 0.11,
-      "cache_write": 1.375,
-      "out": 5.5
     },
     "eu.anthropic.claude-haiku-5-5": {
       "in": 0.11,
@@ -15836,6 +15932,18 @@
       "in": 0.11,
       "cached": 0.055,
       "cache_write": 0.11,
+      "out": 0.0
+    },
+    "eu_jev/eu-jeff-1.0.0": {
+      "in": 0.0415,
+      "cached": 0.02075,
+      "cache_write": 0.0415,
+      "out": 0.0
+    },
+    "eu_jev/eu-jeff-latest": {
+      "in": 0.0415,
+      "cached": 0.02075,
+      "cache_write": 0.0415,
       "out": 0.0
     },
     "extract": {
@@ -17619,6 +17727,12 @@
       "cached": 0.09999999999999999,
       "cache_write": 0.19999999999999998,
       "out": 0.19999999999999998
+    },
+    "fireworks_ai/accounts/fireworks/models/ultramarine-1-flash-us": {
+      "in": 0.22499999999999998,
+      "cached": 0.045,
+      "cache_write": 0.22499999999999998,
+      "out": 0.75
     },
     "fireworks_ai/accounts/fireworks/models/yi-34b": {
       "in": 0.8999999999999999,
@@ -31000,6 +31114,12 @@
       "cache_write": 2.228,
       "out": 6.684
     },
+    "qwen-audio-3.1-tts-flash": {
+      "in": 0.22999999999999998,
+      "cached": 0.11499999999999999,
+      "cache_write": 0.22999999999999998,
+      "out": 1.87
+    },
     "qwen-coder": {
       "in": 0.3,
       "cached": 0.15,
@@ -34247,10 +34367,10 @@
       "out": 3.0
     },
     "together_ai/Qwen/Qwen3.7-Max": {
-      "in": 2.5,
-      "cached": 0.5,
-      "cache_write": 2.5,
-      "out": 7.5
+      "in": 1.5,
+      "cached": 0.3,
+      "cache_write": 1.5,
+      "out": 4.5
     },
     "together_ai/Qwen/Qwen3.7-Plus": {
       "in": 0.32,
@@ -34671,6 +34791,12 @@
       "cached": 0.020999999999999998,
       "cache_write": 0.041999999999999996,
       "out": 0.0
+    },
+    "ultramarine-1-flash-us": {
+      "in": 0.22499999999999998,
+      "cached": 0.045,
+      "cache_write": 0.22499999999999998,
+      "out": 0.75
     },
     "us-east-1/anthropic.claude-instant-v1": {
       "in": 0.7999999999999999,
@@ -39315,6 +39441,12 @@
       "cached": 0.03,
       "cache_write": 0.0,
       "out": 0.5
+    },
+    "zai/glm-5v-turbo": {
+      "in": 1.2,
+      "cached": 0.24,
+      "cache_write": 1.2,
+      "out": 4.0
     },
     "zephyr-7b-beta": {
       "in": 0.15,
