@@ -1,6 +1,6 @@
 {
-  "version": "2026-10-31",
-  "updated": "2026-10-31T12:17:50Z",
+  "version": "2026-11-01",
+  "updated": "2026-11-01T13:14:48Z",
   "source": "litellm",
   "mode": "replace",
   "rates": {
@@ -21074,6 +21074,12 @@
       "in": 10.0,
       "cached": 1.0,
       "cache_write": 12.5,
+      "out": 50.0
+    },
+    "gpt-6-astra-law": {
+      "in": 10.0,
+      "cached": 1.0,
+      "cache_write": 10.0,
       "out": 50.0
     },
     "gpt-6-luna": {
