@@ -1,6 +1,6 @@
 {
-  "version": "2026-11-02",
-  "updated": "2026-11-02T15:40:47Z",
+  "version": "2026-11-03",
+  "updated": "2026-11-03T14:04:11Z",
   "source": "litellm",
   "mode": "replace",
   "rates": {
@@ -7090,7 +7090,19 @@
       "cache_write": 4.0,
       "out": 24.0
     },
+    "azure/gpt-realtime-2.1-2026-07-07": {
+      "in": 4.0,
+      "cached": 0.39999999999999997,
+      "cache_write": 4.0,
+      "out": 24.0
+    },
     "azure/gpt-realtime-2.1-mini": {
+      "in": 0.6,
+      "cached": 0.06,
+      "cache_write": 0.6,
+      "out": 2.4
+    },
+    "azure/gpt-realtime-2.1-mini-2026-07-07": {
       "in": 0.6,
       "cached": 0.06,
       "cache_write": 0.6,
@@ -13155,6 +13167,12 @@
       "cached": 0.6,
       "cache_write": 1.2,
       "out": 1.2
+    },
+    "decision": {
+      "in": 0.0,
+      "cached": 0.0,
+      "cache_write": 0.0,
+      "out": 0.0
     },
     "decision-models/baseten-elephant-9b-latest": {
       "in": 0.035,
@@ -21352,7 +21370,19 @@
       "cache_write": 4.0,
       "out": 24.0
     },
+    "gpt-realtime-2.1-2026-07-07": {
+      "in": 4.0,
+      "cached": 0.39999999999999997,
+      "cache_write": 4.0,
+      "out": 24.0
+    },
     "gpt-realtime-2.1-mini": {
+      "in": 0.6,
+      "cached": 0.06,
+      "cache_write": 0.6,
+      "out": 2.4
+    },
+    "gpt-realtime-2.1-mini-2026-07-07": {
       "in": 0.6,
       "cached": 0.06,
       "cache_write": 0.6,
@@ -25775,16 +25805,16 @@
       "out": 1.2
     },
     "mistral-large-4": {
-      "in": 1.3599999999999999,
-      "cached": 0.14,
-      "cache_write": 1.3599999999999999,
-      "out": 4.18
+      "in": 0.7,
+      "cached": 0.07,
+      "cache_write": 0.7,
+      "out": 2.0999999999999996
     },
     "mistral-large-4-0": {
-      "in": 1.3599999999999999,
-      "cached": 0.14,
-      "cache_write": 1.3599999999999999,
-      "out": 4.18
+      "in": 0.7,
+      "cached": 0.07,
+      "cache_write": 0.7,
+      "out": 2.0999999999999996
     },
     "mistral-large-instruct-2407": {
       "in": 0.0,
@@ -26303,16 +26333,16 @@
       "out": 1.5
     },
     "mistral/mistral-large-4": {
-      "in": 1.3599999999999999,
-      "cached": 0.14,
-      "cache_write": 1.3599999999999999,
-      "out": 4.18
+      "in": 0.7,
+      "cached": 0.07,
+      "cache_write": 0.7,
+      "out": 2.0999999999999996
     },
     "mistral/mistral-large-4-0": {
-      "in": 1.3599999999999999,
-      "cached": 0.14,
-      "cache_write": 1.3599999999999999,
-      "out": 4.18
+      "in": 0.7,
+      "cached": 0.07,
+      "cache_write": 0.7,
+      "out": 2.0999999999999996
     },
     "mistral/mistral-large-latest": {
       "in": 0.5,
@@ -30225,6 +30255,12 @@
       "cached": 0.01,
       "cache_write": 0.02,
       "out": 0.02
+    },
+    "parallel_ai/decision": {
+      "in": 0.0,
+      "cached": 0.0,
+      "cache_write": 0.0,
+      "out": 0.0
     },
     "perplexity/anthropic/claude-fable-5": {
       "in": 10.0,
