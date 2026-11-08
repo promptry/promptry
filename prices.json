@@ -1,6 +1,6 @@
 {
-  "version": "2026-11-07",
-  "updated": "2026-11-07T12:54:08Z",
+  "version": "2026-11-08",
+  "updated": "2026-11-08T13:16:29Z",
   "source": "litellm",
   "mode": "replace",
   "rates": {
@@ -1943,10 +1943,10 @@
       "out": 3.0
     },
     "Qwen/Qwen3.7-Max": {
-      "in": 1.5,
-      "cached": 0.3,
-      "cache_write": 1.5,
-      "out": 4.5
+      "in": 2.5,
+      "cached": 0.5,
+      "cache_write": 2.5,
+      "out": 7.5
     },
     "Qwen/Qwen3.7-Plus": {
       "in": 0.32,
@@ -2315,10 +2315,10 @@
       "out": 3.0
     },
     "Qwen3.7-Max": {
-      "in": 1.5,
-      "cached": 0.3,
-      "cache_write": 1.5,
-      "out": 4.5
+      "in": 2.5,
+      "cached": 0.5,
+      "cache_write": 2.5,
+      "out": 7.5
     },
     "Qwen3.7-Plus": {
       "in": 0.32,
@@ -15904,6 +15904,12 @@
       "cache_write": 0.5634,
       "out": 2.5353
     },
+    "essentialai/rnj-1-instruct": {
+      "in": 0.15,
+      "cached": 0.075,
+      "cache_write": 0.15,
+      "out": 0.15
+    },
     "eu-central-1/anthropic.claude-instant-v1": {
       "in": 2.48,
       "cached": 1.24,
@@ -24370,6 +24376,12 @@
       "cache_write": 2.0,
       "out": 10.0
     },
+    "kimi-k3.1-pro-highspeed": {
+      "in": 4.0,
+      "cached": 0.19999999999999998,
+      "cache_write": 4.0,
+      "out": 20.0
+    },
     "kimi-k3p1-pro": {
       "in": 2.0,
       "cached": 0.19999999999999998,
@@ -28299,6 +28311,12 @@
       "cached": 0.19999999999999998,
       "cache_write": 2.0,
       "out": 10.0
+    },
+    "moonshot/kimi-k3.1-pro-highspeed": {
+      "in": 4.0,
+      "cached": 0.19999999999999998,
+      "cache_write": 4.0,
+      "out": 20.0
     },
     "moonshot/moonshot-v1-128k": {
       "in": 2.0,
@@ -34864,6 +34882,12 @@
       "cache_write": 0.19999999999999998,
       "out": 0.6
     },
+    "rnj-1-instruct": {
+      "in": 0.15,
+      "cached": 0.075,
+      "cache_write": 0.15,
+      "out": 0.15
+    },
     "rolm-ocr": {
       "in": 0.19999999999999998,
       "cached": 0.09999999999999999,
@@ -36401,10 +36425,10 @@
       "out": 3.0
     },
     "together_ai/Qwen/Qwen3.7-Max": {
-      "in": 1.5,
-      "cached": 0.3,
-      "cache_write": 1.5,
-      "out": 4.5
+      "in": 2.5,
+      "cached": 0.5,
+      "cache_write": 2.5,
+      "out": 7.5
     },
     "together_ai/Qwen/Qwen3.7-Plus": {
       "in": 0.32,
@@ -36483,6 +36507,12 @@
       "cached": 0.006,
       "cache_write": 0.3,
       "out": 1.2
+    },
+    "together_ai/essentialai/rnj-1-instruct": {
+      "in": 0.15,
+      "cached": 0.075,
+      "cache_write": 0.15,
+      "out": 0.15
     },
     "together_ai/google/gemma-4-31B-it": {
       "in": 0.39,
