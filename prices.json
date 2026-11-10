@@ -1,6 +1,6 @@
 {
-  "version": "2026-11-09",
-  "updated": "2026-11-09T16:06:45Z",
+  "version": "2026-11-10",
+  "updated": "2026-11-10T14:47:49Z",
   "source": "litellm",
   "mode": "replace",
   "rates": {
@@ -449,10 +449,10 @@
       "out": 1.0
     },
     "DeepSeek-V3.2": {
-      "in": 0.5,
-      "cached": 0.25,
-      "cache_write": 0.5,
-      "out": 1.5
+      "in": 0.28,
+      "cached": 0.14,
+      "cache_write": 0.28,
+      "out": 0.39999999999999997
     },
     "DeepSeek-V3.2-Exp": {
       "in": 0.27,
@@ -1284,7 +1284,7 @@
     },
     "MiniMax-M2.5": {
       "in": 0.3,
-      "cached": 0.06,
+      "cached": 0.15,
       "cache_write": 0.3,
       "out": 1.2
     },
@@ -1332,7 +1332,7 @@
     },
     "MiniMaxAI/MiniMax-M2.5": {
       "in": 0.3,
-      "cached": 0.06,
+      "cached": 0.15,
       "cache_write": 0.3,
       "out": 1.2
     },
@@ -1433,9 +1433,9 @@
       "out": 0.24
     },
     "NVIDIA-Nemotron-3-Super-120B-A12B": {
-      "in": 0.08499999999999999,
-      "cached": 0.042499999999999996,
-      "cache_write": 0.08499999999999999,
+      "in": 0.075,
+      "cached": 0.0375,
+      "cache_write": 0.075,
       "out": 0.39999999999999997
     },
     "NVIDIA-Nemotron-3-Ultra-550B-A55B": {
@@ -5236,6 +5236,12 @@
       "cache_write": 12.5,
       "out": 50.0
     },
+    "anthropic.claude-fable-5-2": {
+      "in": 8.0,
+      "cached": 0.19999999999999998,
+      "cache_write": 10.0,
+      "out": 40.0
+    },
     "anthropic.claude-haiku-4-5": {
       "in": 1.0,
       "cached": 0.09999999999999999,
@@ -5271,6 +5277,12 @@
       "cached": 0.25,
       "cache_write": 12.5,
       "out": 50.0
+    },
+    "anthropic.claude-mythos-5-2": {
+      "in": 8.0,
+      "cached": 0.19999999999999998,
+      "cache_write": 10.0,
+      "out": 40.0
     },
     "anthropic.claude-mythos-preview": {
       "in": 27.5,
@@ -8056,6 +8068,18 @@
       "cache_write": 12.5,
       "out": 50.0
     },
+    "azure_ai/claude-fable-5-2": {
+      "in": 8.0,
+      "cached": 0.19999999999999998,
+      "cache_write": 10.0,
+      "out": 40.0
+    },
+    "azure_ai/claude-fable-5-2-fast": {
+      "in": 16.0,
+      "cached": 0.39999999999999997,
+      "cache_write": 20.0,
+      "out": 80.0
+    },
     "azure_ai/claude-haiku-4-5": {
       "in": 1.0,
       "cached": 0.09999999999999999,
@@ -8073,6 +8097,18 @@
       "cached": 0.25,
       "cache_write": 12.5,
       "out": 50.0
+    },
+    "azure_ai/claude-mythos-5-2": {
+      "in": 8.0,
+      "cached": 0.19999999999999998,
+      "cache_write": 10.0,
+      "out": 40.0
+    },
+    "azure_ai/claude-mythos-5-2-fast": {
+      "in": 16.0,
+      "cached": 0.39999999999999997,
+      "cache_write": 20.0,
+      "out": 80.0
     },
     "azure_ai/claude-opus-4-5": {
       "in": 5.0,
@@ -9028,6 +9064,12 @@
       "cache_write": 12.5,
       "out": 50.0
     },
+    "bedrock/claude_platform/claude-fable-5-2": {
+      "in": 8.0,
+      "cached": 0.19999999999999998,
+      "cache_write": 10.0,
+      "out": 40.0
+    },
     "bedrock/claude_platform/claude-haiku-4-5": {
       "in": 1.0,
       "cached": 0.09999999999999999,
@@ -9544,6 +9586,12 @@
       "cache_write": 15.0,
       "out": 60.0
     },
+    "bedrock/us-gov-east-1/anthropic.claude-fable-5-2": {
+      "in": 9.6,
+      "cached": 0.24,
+      "cache_write": 12.0,
+      "out": 48.0
+    },
     "bedrock/us-gov-east-1/anthropic.claude-haiku-4-5-20251001-v1:0": {
       "in": 1.2,
       "cached": 0.12,
@@ -9555,6 +9603,12 @@
       "cached": 0.012,
       "cache_write": 0.15,
       "out": 0.6
+    },
+    "bedrock/us-gov-east-1/anthropic.claude-mythos-5-2": {
+      "in": 9.6,
+      "cached": 0.24,
+      "cache_write": 12.0,
+      "out": 48.0
     },
     "bedrock/us-gov-east-1/anthropic.claude-opus-4-8": {
       "in": 6.0,
@@ -9730,6 +9784,12 @@
       "cache_write": 15.0,
       "out": 60.0
     },
+    "bedrock/us-gov-west-1/anthropic.claude-fable-5-2": {
+      "in": 9.6,
+      "cached": 0.24,
+      "cache_write": 12.0,
+      "out": 48.0
+    },
     "bedrock/us-gov-west-1/anthropic.claude-haiku-4-5-20251001-v1:0": {
       "in": 1.2,
       "cached": 0.12,
@@ -9741,6 +9801,12 @@
       "cached": 0.012,
       "cache_write": 0.15,
       "out": 0.6
+    },
+    "bedrock/us-gov-west-1/anthropic.claude-mythos-5-2": {
+      "in": 9.6,
+      "cached": 0.24,
+      "cache_write": 12.0,
+      "out": 48.0
     },
     "bedrock/us-gov-west-1/anthropic.claude-opus-4-8": {
       "in": 6.0,
@@ -10630,11 +10696,35 @@
       "cache_write": 12.5,
       "out": 50.0
     },
+    "claude-fable-5-2": {
+      "in": 8.0,
+      "cached": 0.19999999999999998,
+      "cache_write": 10.0,
+      "out": 40.0
+    },
+    "claude-fable-5-2-fast": {
+      "in": 16.0,
+      "cached": 0.39999999999999997,
+      "cache_write": 20.0,
+      "out": 80.0
+    },
+    "claude-fable-5-2@default": {
+      "in": 8.0,
+      "cached": 0.19999999999999998,
+      "cache_write": 10.0,
+      "out": 40.0
+    },
     "claude-fable-5.1": {
       "in": 10.0,
       "cached": 0.25,
       "cache_write": 12.5,
       "out": 50.0
+    },
+    "claude-fable-5.2": {
+      "in": 8.0,
+      "cached": 0.19999999999999998,
+      "cache_write": 10.0,
+      "out": 40.0
     },
     "claude-fable-5@default": {
       "in": 10.0,
@@ -10695,6 +10785,18 @@
       "cached": 0.25,
       "cache_write": 12.5,
       "out": 50.0
+    },
+    "claude-mythos-5-2": {
+      "in": 8.0,
+      "cached": 0.19999999999999998,
+      "cache_write": 10.0,
+      "out": 40.0
+    },
+    "claude-mythos-5-2-fast": {
+      "in": 16.0,
+      "cached": 0.39999999999999997,
+      "cache_write": 20.0,
+      "out": 80.0
     },
     "claude-mythos-preview": {
       "in": 10.0,
@@ -10941,6 +11043,12 @@
       "cached": 0.25,
       "cache_write": 12.5,
       "out": 50.0
+    },
+    "claude_platform/claude-fable-5-2": {
+      "in": 8.0,
+      "cached": 0.19999999999999998,
+      "cache_write": 10.0,
+      "out": 40.0
     },
     "claude_platform/claude-haiku-4-5": {
       "in": 1.0,
@@ -13991,9 +14099,9 @@
       "out": 0.39999999999999997
     },
     "deepinfra/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B": {
-      "in": 0.08499999999999999,
-      "cached": 0.042499999999999996,
-      "cache_write": 0.08499999999999999,
+      "in": 0.075,
+      "cached": 0.0375,
+      "cache_write": 0.075,
       "out": 0.39999999999999997
     },
     "deepinfra/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B": {
@@ -14207,10 +14315,10 @@
       "out": 1.0
     },
     "deepseek-ai/DeepSeek-V3.2": {
-      "in": 0.5,
-      "cached": 0.25,
-      "cache_write": 0.5,
-      "out": 1.5
+      "in": 0.28,
+      "cached": 0.14,
+      "cache_write": 0.28,
+      "out": 0.39999999999999997
     },
     "deepseek-ai/DeepSeek-V3.2-Exp": {
       "in": 0.27,
@@ -15214,6 +15322,12 @@
       "cache_write": 0.01,
       "out": 0.0
     },
+    "elorian-labs/glimpse-1.0": {
+      "in": 0.6,
+      "cached": 0.06,
+      "cache_write": 0.6,
+      "out": 3.0
+    },
     "embed-english-light-v3.0": {
       "in": 0.09999999999999999,
       "cached": 0.049999999999999996,
@@ -16180,6 +16294,12 @@
       "cache_write": 13.75,
       "out": 55.0
     },
+    "eu.anthropic.claude-fable-5-2": {
+      "in": 8.8,
+      "cached": 0.22,
+      "cache_write": 11.0,
+      "out": 44.0
+    },
     "eu.anthropic.claude-haiku-4-5-20251001-v1:0": {
       "in": 1.1,
       "cached": 0.11,
@@ -16191,6 +16311,12 @@
       "cached": 0.011,
       "cache_write": 0.1375,
       "out": 0.55
+    },
+    "eu.anthropic.claude-mythos-5-2": {
+      "in": 8.8,
+      "cached": 0.22,
+      "cache_write": 11.0,
+      "out": 44.0
     },
     "eu.anthropic.claude-opus-4-1-20250805-v1:0": {
       "in": 15.0,
@@ -18916,18 +19042,6 @@
       "cache_write": 0.04,
       "out": 0.04
     },
-    "friendliai/MiniMaxAI/MiniMax-M2.5": {
-      "in": 0.3,
-      "cached": 0.06,
-      "cache_write": 0.3,
-      "out": 1.2
-    },
-    "friendliai/deepseek-ai/DeepSeek-V3.2": {
-      "in": 0.5,
-      "cached": 0.25,
-      "cache_write": 0.5,
-      "out": 1.5
-    },
     "friendliai/google/gemma-4-31B-it": {
       "in": 0.14,
       "cached": 0.07,
@@ -20098,6 +20212,12 @@
       "cache_write": 12.5,
       "out": 50.0
     },
+    "github_copilot/claude-fable-5.2": {
+      "in": 8.0,
+      "cached": 0.19999999999999998,
+      "cache_write": 10.0,
+      "out": 40.0
+    },
     "github_copilot/claude-haiku-4.5": {
       "in": 1.0,
       "cached": 0.09999999999999999,
@@ -20283,6 +20403,12 @@
       "cached": 0.02,
       "cache_write": 0.19999999999999998,
       "out": 1.2
+    },
+    "glimpse-1.0": {
+      "in": 0.6,
+      "cached": 0.06,
+      "cache_write": 0.6,
+      "out": 3.0
     },
     "glm-4-32b-0414": {
       "in": 0.55,
@@ -20650,6 +20776,12 @@
       "cache_write": 12.5,
       "out": 50.0
     },
+    "global.anthropic.claude-fable-5-2": {
+      "in": 8.0,
+      "cached": 0.19999999999999998,
+      "cache_write": 10.0,
+      "out": 40.0
+    },
     "global.anthropic.claude-haiku-4-5-20251001-v1:0": {
       "in": 1.0,
       "cached": 0.09999999999999999,
@@ -20667,6 +20799,12 @@
       "cached": 0.25,
       "cache_write": 12.5,
       "out": 50.0
+    },
+    "global.anthropic.claude-mythos-5-2": {
+      "in": 8.0,
+      "cached": 0.19999999999999998,
+      "cache_write": 10.0,
+      "out": 40.0
     },
     "global.anthropic.claude-opus-4-5-20251101-v1:0": {
       "in": 5.0,
@@ -26728,6 +26866,12 @@
       "cache_write": 0.0,
       "out": 0.0
     },
+    "meta/muse-ember-1.0": {
+      "in": 0.09999999999999999,
+      "cached": 0.004,
+      "cache_write": 0.09999999999999999,
+      "out": 0.5
+    },
     "meta/muse-spark-1.1": {
       "in": 1.25,
       "cached": 0.15,
@@ -27015,6 +27159,12 @@
       "cached": 0.06,
       "cache_write": 0.3,
       "out": 1.2
+    },
+    "minimax/MiniMax-M3.1-Flash": {
+      "in": 0.15,
+      "cached": 0.015,
+      "cache_write": 0.15,
+      "out": 0.6
     },
     "minimax/minimax-m2": {
       "in": 0.3,
@@ -28665,6 +28815,12 @@
       "cached": 0.39999999999999997,
       "cache_write": 0.7999999999999999,
       "out": 0.0
+    },
+    "muse-ember-1.0": {
+      "in": 0.09999999999999999,
+      "cached": 0.004,
+      "cache_write": 0.09999999999999999,
+      "out": 0.5
     },
     "muse-glimmer-30b": {
       "in": 0.35,
@@ -30377,9 +30533,9 @@
       "out": 0.24
     },
     "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B": {
-      "in": 0.08499999999999999,
-      "cached": 0.042499999999999996,
-      "cache_write": 0.08499999999999999,
+      "in": 0.075,
+      "cached": 0.0375,
+      "cache_write": 0.075,
       "out": 0.39999999999999997
     },
     "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B": {
@@ -36508,6 +36664,12 @@
       "cache_write": 0.3,
       "out": 1.2
     },
+    "together_ai/elorian-labs/glimpse-1.0": {
+      "in": 0.6,
+      "cached": 0.06,
+      "cache_write": 0.6,
+      "out": 3.0
+    },
     "together_ai/essentialai/rnj-1-instruct": {
       "in": 0.15,
       "cached": 0.075,
@@ -37012,6 +37174,12 @@
       "cache_write": 15.0,
       "out": 60.0
     },
+    "us-gov-east-1/anthropic.claude-fable-5-2": {
+      "in": 9.6,
+      "cached": 0.24,
+      "cache_write": 12.0,
+      "out": 48.0
+    },
     "us-gov-east-1/anthropic.claude-haiku-4-5-20251001-v1:0": {
       "in": 1.2,
       "cached": 0.12,
@@ -37023,6 +37191,12 @@
       "cached": 0.012,
       "cache_write": 0.15,
       "out": 0.6
+    },
+    "us-gov-east-1/anthropic.claude-mythos-5-2": {
+      "in": 9.6,
+      "cached": 0.24,
+      "cache_write": 12.0,
+      "out": 48.0
     },
     "us-gov-east-1/anthropic.claude-opus-4-8": {
       "in": 6.0,
@@ -37228,6 +37402,12 @@
       "cache_write": 15.0,
       "out": 60.0
     },
+    "us-gov-west-1/anthropic.claude-fable-5-2": {
+      "in": 9.6,
+      "cached": 0.24,
+      "cache_write": 12.0,
+      "out": 48.0
+    },
     "us-gov-west-1/anthropic.claude-haiku-4-5-20251001-v1:0": {
       "in": 1.2,
       "cached": 0.12,
@@ -37239,6 +37419,12 @@
       "cached": 0.012,
       "cache_write": 0.15,
       "out": 0.6
+    },
+    "us-gov-west-1/anthropic.claude-mythos-5-2": {
+      "in": 9.6,
+      "cached": 0.24,
+      "cache_write": 12.0,
+      "out": 48.0
     },
     "us-gov-west-1/anthropic.claude-opus-4-8": {
       "in": 6.0,
@@ -37408,11 +37594,23 @@
       "cache_write": 15.0,
       "out": 60.0
     },
+    "us-gov.anthropic.claude-fable-5-2": {
+      "in": 9.6,
+      "cached": 0.24,
+      "cache_write": 12.0,
+      "out": 48.0
+    },
     "us-gov.anthropic.claude-haiku-5-5": {
       "in": 0.12,
       "cached": 0.012,
       "cache_write": 0.15,
       "out": 0.6
+    },
+    "us-gov.anthropic.claude-mythos-5-2": {
+      "in": 9.6,
+      "cached": 0.24,
+      "cache_write": 12.0,
+      "out": 48.0
     },
     "us-gov.anthropic.claude-opus-4-8": {
       "in": 6.0,
@@ -37684,6 +37882,12 @@
       "cache_write": 13.75,
       "out": 55.0
     },
+    "us.anthropic.claude-fable-5-2": {
+      "in": 8.8,
+      "cached": 0.22,
+      "cache_write": 11.0,
+      "out": 44.0
+    },
     "us.anthropic.claude-haiku-4-5-20251001-v1:0": {
       "in": 1.1,
       "cached": 0.11,
@@ -37707,6 +37911,12 @@
       "cached": 0.275,
       "cache_write": 13.75,
       "out": 55.0
+    },
+    "us.anthropic.claude-mythos-5-2": {
+      "in": 8.8,
+      "cached": 0.22,
+      "cache_write": 11.0,
+      "out": 44.0
     },
     "us.anthropic.claude-mythos-preview": {
       "in": 27.5,
@@ -39130,6 +39340,18 @@
       "cache_write": 12.5,
       "out": 50.0
     },
+    "vertex_ai/claude-fable-5-2": {
+      "in": 8.0,
+      "cached": 0.19999999999999998,
+      "cache_write": 10.0,
+      "out": 40.0
+    },
+    "vertex_ai/claude-fable-5-2@default": {
+      "in": 8.0,
+      "cached": 0.19999999999999998,
+      "cache_write": 10.0,
+      "out": 40.0
+    },
     "vertex_ai/claude-fable-5@default": {
       "in": 10.0,
       "cached": 1.0,
@@ -40475,10 +40697,10 @@
       "out": 0.65
     },
     "wandb/deepseek-ai/DeepSeek-V4.1-Flash-1017": {
-      "in": 0.13,
-      "cached": 0.002,
-      "cache_write": 0.13,
-      "out": 0.65
+      "in": 0.3,
+      "cached": 0.006,
+      "cache_write": 0.3,
+      "out": 1.2
     },
     "wandb/google/gemma-4-26B-A4B-it": {
       "in": 0.09999999999999999,
