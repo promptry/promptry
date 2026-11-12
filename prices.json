@@ -1,6 +1,6 @@
 {
-  "version": "2026-11-11",
-  "updated": "2026-11-11T14:10:29Z",
+  "version": "2026-11-12",
+  "updated": "2026-11-12T15:04:42Z",
   "source": "litellm",
   "mode": "replace",
   "rates": {
@@ -1379,9 +1379,9 @@
       "out": 0.09999999999999999
     },
     "Mistral-Nemo-Instruct-2407": {
-      "in": 0.019000000000000003,
-      "cached": 0.009500000000000001,
-      "cache_write": 0.019000000000000003,
+      "in": 0.029,
+      "cached": 0.0145,
+      "cache_write": 0.029,
       "out": 0.03
     },
     "Mistral-Small-24B-Instruct-2501": {
@@ -1445,10 +1445,10 @@
       "out": 2.1500000000000004
     },
     "NVIDIA-Nemotron-3.5-Lightning": {
-      "in": 0.08,
+      "in": 0.06,
       "cached": 0.04,
-      "cache_write": 0.08,
-      "out": 0.19999999999999998
+      "cache_write": 0.06,
+      "out": 0.16
     },
     "NVIDIA-Nemotron-3.5-Lightning-30B-A3B": {
       "in": 0.07,
@@ -5645,10 +5645,10 @@
       "out": 15.0
     },
     "anthropic/claude-sonnet-5": {
-      "in": 2.0,
-      "cached": 1.0,
-      "cache_write": 2.0,
-      "out": 10.0
+      "in": 3.0,
+      "cached": 1.5,
+      "cache_write": 3.0,
+      "out": 15.0
     },
     "anthropic/claude-sonnet-5-5": {
       "in": 2.0,
@@ -12437,10 +12437,10 @@
       "out": 50.00002
     },
     "databricks-claude-fable-5-2": {
-      "in": 8.0,
-      "cached": 8.0,
-      "cache_write": 8.0,
-      "out": 40.0
+      "in": 8.00002,
+      "cached": 0.19999,
+      "cache_write": 9.99999,
+      "out": 40.000029999999995
     },
     "databricks-claude-haiku-4-5": {
       "in": 1.0000200000000001,
@@ -12657,6 +12657,12 @@
       "cached": 0.12502,
       "cache_write": 2.49998,
       "out": 12.49997
+    },
+    "databricks-gemini-4-carbon": {
+      "in": 2.0,
+      "cached": 2.0,
+      "cache_write": 2.0,
+      "out": 10.0
     },
     "databricks-gemma-3-12b": {
       "in": 0.15001,
@@ -12953,10 +12959,10 @@
       "out": 50.00002
     },
     "databricks/databricks-claude-fable-5-2": {
-      "in": 8.0,
-      "cached": 8.0,
-      "cache_write": 8.0,
-      "out": 40.0
+      "in": 8.00002,
+      "cached": 0.19999,
+      "cache_write": 9.99999,
+      "out": 40.000029999999995
     },
     "databricks/databricks-claude-haiku-4-5": {
       "in": 1.0000200000000001,
@@ -13173,6 +13179,12 @@
       "cached": 0.12502,
       "cache_write": 2.49998,
       "out": 12.49997
+    },
+    "databricks/databricks-gemini-4-carbon": {
+      "in": 2.0,
+      "cached": 2.0,
+      "cache_write": 2.0,
+      "out": 10.0
     },
     "databricks/databricks-gemma-3-12b": {
       "in": 0.15001,
@@ -13445,10 +13457,16 @@
       "out": 0.0
     },
     "databricks/system.ai.claude-fable-5-2": {
-      "in": 8.0,
-      "cached": 8.0,
-      "cache_write": 8.0,
-      "out": 40.0
+      "in": 8.00002,
+      "cached": 0.19999,
+      "cache_write": 9.99999,
+      "out": 40.000029999999995
+    },
+    "databricks/system.ai.gemini-4-carbon": {
+      "in": 2.0,
+      "cached": 2.0,
+      "cache_write": 2.0,
+      "out": 10.0
     },
     "davinci-002": {
       "in": 2.0,
@@ -13847,10 +13865,10 @@
       "out": 15.0
     },
     "deepinfra/anthropic/claude-sonnet-5": {
-      "in": 2.0,
-      "cached": 1.0,
-      "cache_write": 2.0,
-      "out": 10.0
+      "in": 3.0,
+      "cached": 1.5,
+      "cache_write": 3.0,
+      "out": 15.0
     },
     "deepinfra/deepseek-ai/DeepSeek-R1": {
       "in": 0.7,
@@ -14141,9 +14159,9 @@
       "out": 0.14
     },
     "deepinfra/mistralai/Mistral-Nemo-Instruct-2407": {
-      "in": 0.019000000000000003,
-      "cached": 0.009500000000000001,
-      "cache_write": 0.019000000000000003,
+      "in": 0.029,
+      "cached": 0.0145,
+      "cache_write": 0.029,
       "out": 0.03
     },
     "deepinfra/mistralai/Mistral-Small-24B-Instruct-2501": {
@@ -14225,10 +14243,10 @@
       "out": 2.2
     },
     "deepinfra/nvidia/NVIDIA-Nemotron-3.5-Lightning": {
-      "in": 0.08,
+      "in": 0.06,
       "cached": 0.04,
-      "cache_write": 0.08,
-      "out": 0.19999999999999998
+      "cache_write": 0.06,
+      "out": 0.16
     },
     "deepinfra/nvidia/NVIDIA-Nemotron-Nano-9B-v2": {
       "in": 0.04,
@@ -19714,6 +19732,12 @@
       "cache_write": 4.0,
       "out": 20.0
     },
+    "gemini-decision-1": {
+      "in": 0.09999999999999999,
+      "cached": 0.049999999999999996,
+      "cache_write": 0.09999999999999999,
+      "out": 0.0
+    },
     "gemini-embedding-001": {
       "in": 0.15,
       "cached": 0.075,
@@ -20073,6 +20097,12 @@
       "cached": 0.09999999999999999,
       "cache_write": 2.0,
       "out": 10.0
+    },
+    "gemini/gemini-decision-1": {
+      "in": 0.09999999999999999,
+      "cached": 0.049999999999999996,
+      "cache_write": 0.09999999999999999,
+      "out": 0.0
     },
     "gemini/gemini-embedding-001": {
       "in": 0.15,
@@ -28805,9 +28835,9 @@
       "out": 0.19999999999999998
     },
     "mistralai/Mistral-Nemo-Instruct-2407": {
-      "in": 0.019000000000000003,
-      "cached": 0.009500000000000001,
-      "cache_write": 0.019000000000000003,
+      "in": 0.029,
+      "cached": 0.0145,
+      "cache_write": 0.029,
       "out": 0.03
     },
     "mistralai/Mistral-Small-24B-Instruct-2501": {
@@ -31163,10 +31193,10 @@
       "out": 2.1500000000000004
     },
     "nvidia/NVIDIA-Nemotron-3.5-Lightning": {
-      "in": 0.08,
+      "in": 0.06,
       "cached": 0.04,
-      "cache_write": 0.08,
-      "out": 0.19999999999999998
+      "cache_write": 0.06,
+      "out": 0.16
     },
     "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B": {
       "in": 0.07,
@@ -37139,10 +37169,16 @@
       "out": 0.0
     },
     "system.ai.claude-fable-5-2": {
-      "in": 8.0,
-      "cached": 8.0,
-      "cache_write": 8.0,
-      "out": 40.0
+      "in": 8.00002,
+      "cached": 0.19999,
+      "cache_write": 9.99999,
+      "out": 40.000029999999995
+    },
+    "system.ai.gemini-4-carbon": {
+      "in": 2.0,
+      "cached": 2.0,
+      "cache_write": 2.0,
+      "out": 10.0
     },
     "tencent/HunyuanOCR": {
       "in": 0.5,
