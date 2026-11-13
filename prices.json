@@ -1,6 +1,6 @@
 {
-  "version": "2026-11-12",
-  "updated": "2026-11-12T15:04:42Z",
+  "version": "2026-11-13",
+  "updated": "2026-11-13T14:29:40Z",
   "source": "litellm",
   "mode": "replace",
   "rates": {
@@ -861,6 +861,12 @@
       "cached": 0.16999999999999998,
       "cache_write": 1.0,
       "out": 4.05
+    },
+    "Inkling-2-Small": {
+      "in": 0.3,
+      "cached": 0.03,
+      "cache_write": 0.3,
+      "out": 1.0
     },
     "Inkling-Small": {
       "in": 0.44999999999999996,
@@ -5518,6 +5524,12 @@
       "cache_write": 10.0,
       "out": 50.0
     },
+    "anthropic/claude-fable-5-2": {
+      "in": 8.0,
+      "cached": 0.19999999999999998,
+      "cache_write": 8.0,
+      "out": 40.0
+    },
     "anthropic/claude-fable-5.2": {
       "in": 8.0,
       "cached": 4.0,
@@ -8327,6 +8339,12 @@
       "out": 3.48
     },
     "azure_ai/deepseek-v4.1-flash": {
+      "in": 0.3,
+      "cached": 0.006,
+      "cache_write": 0.3,
+      "out": 1.2
+    },
+    "azure_ai/deepseek-v4.1-flash-1017": {
       "in": 0.3,
       "cached": 0.006,
       "cache_write": 0.3,
@@ -15431,27 +15449,39 @@
       "out": 2.15625
     },
     "drex-latest": {
-      "in": 0.06,
-      "cached": 0.03,
-      "cache_write": 0.06,
+      "in": 0.03,
+      "cached": 0.015,
+      "cache_write": 0.03,
+      "out": 0.0
+    },
+    "drex-max": {
+      "in": 0.03,
+      "cached": 0.015,
+      "cache_write": 0.03,
+      "out": 0.0
+    },
+    "drex-max-v1.1": {
+      "in": 0.03,
+      "cached": 0.015,
+      "cache_write": 0.03,
       "out": 0.0
     },
     "drex-v1.0": {
-      "in": 0.04,
-      "cached": 0.02,
-      "cache_write": 0.04,
+      "in": 0.03,
+      "cached": 0.015,
+      "cache_write": 0.03,
       "out": 0.0
     },
     "drex-v1.5": {
-      "in": 0.049999999999999996,
-      "cached": 0.024999999999999998,
-      "cache_write": 0.049999999999999996,
+      "in": 0.03,
+      "cached": 0.015,
+      "cache_write": 0.03,
       "out": 0.0
     },
     "drex-v2.0": {
-      "in": 0.06,
-      "cached": 0.03,
-      "cache_write": 0.06,
+      "in": 0.03,
+      "cached": 0.015,
+      "cache_write": 0.03,
       "out": 0.0
     },
     "e5-mistral-7b-instruct": {
@@ -19732,6 +19762,12 @@
       "cache_write": 4.0,
       "out": 20.0
     },
+    "gemini-4-hydrogen": {
+      "in": 1.5,
+      "cached": 0.075,
+      "cache_write": 1.5,
+      "out": 7.5
+    },
     "gemini-decision-1": {
       "in": 0.09999999999999999,
       "cached": 0.049999999999999996,
@@ -20097,6 +20133,12 @@
       "cached": 0.09999999999999999,
       "cache_write": 2.0,
       "out": 10.0
+    },
+    "gemini/gemini-4-hydrogen": {
+      "in": 1.5,
+      "cached": 0.075,
+      "cache_write": 1.5,
+      "out": 7.5
     },
     "gemini/gemini-decision-1": {
       "in": 0.09999999999999999,
@@ -21688,6 +21730,12 @@
       "cache_write": 2.0,
       "out": 10.0
     },
+    "gmi/google/gemini-4-carbon": {
+      "in": 2.0,
+      "cached": 0.09999999999999999,
+      "cache_write": 2.0,
+      "out": 10.0
+    },
     "gmi/google/gemma-4-26b-a4b-it": {
       "in": 0.13,
       "cached": 0.065,
@@ -21952,6 +22000,12 @@
       "cache_write": 2.0,
       "out": 6.0
     },
+    "gmi/xai/grok4.7": {
+      "in": 2.0,
+      "cached": 0.5,
+      "cache_write": 2.0,
+      "out": 6.0
+    },
     "gmi/zai-org/GLM-4.5-Air-FP8": {
       "in": 0.19999999999999998,
       "cached": 0.09999999999999999,
@@ -22188,7 +22242,7 @@
     },
     "google/gemini-4-carbon": {
       "in": 2.0,
-      "cached": 1.0,
+      "cached": 0.09999999999999999,
       "cache_write": 2.0,
       "out": 10.0
     },
@@ -23897,6 +23951,12 @@
       "out": 2.0
     },
     "grok4.6": {
+      "in": 2.0,
+      "cached": 0.5,
+      "cache_write": 2.0,
+      "out": 6.0
+    },
+    "grok4.7": {
       "in": 2.0,
       "cached": 0.5,
       "cache_write": 2.0,
@@ -29549,27 +29609,39 @@
       "out": 0.19999999999999998
     },
     "nace/drex-latest": {
-      "in": 0.06,
-      "cached": 0.03,
-      "cache_write": 0.06,
+      "in": 0.03,
+      "cached": 0.015,
+      "cache_write": 0.03,
+      "out": 0.0
+    },
+    "nace/drex-max": {
+      "in": 0.03,
+      "cached": 0.015,
+      "cache_write": 0.03,
+      "out": 0.0
+    },
+    "nace/drex-max-v1.1": {
+      "in": 0.03,
+      "cached": 0.015,
+      "cache_write": 0.03,
       "out": 0.0
     },
     "nace/drex-v1.0": {
-      "in": 0.04,
-      "cached": 0.02,
-      "cache_write": 0.04,
+      "in": 0.03,
+      "cached": 0.015,
+      "cache_write": 0.03,
       "out": 0.0
     },
     "nace/drex-v1.5": {
-      "in": 0.049999999999999996,
-      "cached": 0.024999999999999998,
-      "cache_write": 0.049999999999999996,
+      "in": 0.03,
+      "cached": 0.015,
+      "cache_write": 0.03,
       "out": 0.0
     },
     "nace/drex-v2.0": {
-      "in": 0.06,
-      "cached": 0.03,
-      "cache_write": 0.06,
+      "in": 0.03,
+      "cached": 0.015,
+      "cache_write": 0.03,
       "out": 0.0
     },
     "nano-banana-pro-preview": {
@@ -32764,6 +32836,12 @@
       "cache_write": 10.0,
       "out": 50.0
     },
+    "perplexity/anthropic/claude-fable-5-2": {
+      "in": 8.0,
+      "cached": 0.19999999999999998,
+      "cache_write": 8.0,
+      "out": 40.0
+    },
     "perplexity/anthropic/claude-haiku-4-5": {
       "in": 1.0,
       "cached": 0.09999999999999999,
@@ -32927,6 +33005,12 @@
       "out": 3.75
     },
     "perplexity/google/gemini-4-argon": {
+      "in": 2.0,
+      "cached": 0.09999999999999999,
+      "cache_write": 2.0,
+      "out": 10.0
+    },
+    "perplexity/google/gemini-4-carbon": {
       "in": 2.0,
       "cached": 0.09999999999999999,
       "cache_write": 2.0,
@@ -37468,6 +37552,12 @@
       "cache_write": 1.0,
       "out": 4.05
     },
+    "thinkingmachines/Inkling-2-Small": {
+      "in": 0.3,
+      "cached": 0.03,
+      "cache_write": 0.3,
+      "out": 1.0
+    },
     "thinkingmachines/Inkling-Small": {
       "in": 0.44999999999999996,
       "cached": 0.09999999999999999,
@@ -37941,6 +38031,12 @@
       "cached": 0.16999999999999998,
       "cache_write": 1.0,
       "out": 4.05
+    },
+    "together_ai/thinkingmachines/Inkling-2-Small": {
+      "in": 0.3,
+      "cached": 0.03,
+      "cache_write": 0.3,
+      "out": 1.0
     },
     "together_ai/together/Tev1-4B-experimental": {
       "in": 0.041999999999999996,
@@ -40642,6 +40738,12 @@
       "cache_write": 0.19999999999999998,
       "out": 0.6
     },
+    "vertex_ai/deep-research-preview-04-2026": {
+      "in": 2.0,
+      "cached": 0.19999999999999998,
+      "cache_write": 2.0,
+      "out": 12.0
+    },
     "vertex_ai/deep-research-pro-preview-12-2025": {
       "in": 2.0,
       "cached": 0.19999999999999998,
@@ -40899,6 +41001,12 @@
       "cached": 0.19999999999999998,
       "cache_write": 4.0,
       "out": 20.0
+    },
+    "vertex_ai/gemini-4-hydrogen": {
+      "in": 1.5,
+      "cached": 0.075,
+      "cache_write": 1.5,
+      "out": 7.5
     },
     "vertex_ai/gemini-embedding-2": {
       "in": 0.19999999999999998,
@@ -42569,6 +42677,12 @@
       "out": 2.0
     },
     "xai/grok4.6": {
+      "in": 2.0,
+      "cached": 0.5,
+      "cache_write": 2.0,
+      "out": 6.0
+    },
+    "xai/grok4.7": {
       "in": 2.0,
       "cached": 0.5,
       "cache_write": 2.0,
