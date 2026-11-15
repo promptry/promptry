@@ -1,6 +1,6 @@
 {
-  "version": "2026-11-14",
-  "updated": "2026-11-14T13:26:11Z",
+  "version": "2026-11-15",
+  "updated": "2026-11-15T13:52:20Z",
   "source": "litellm",
   "mode": "replace",
   "rates": {
@@ -23092,6 +23092,12 @@
       "cache_write": 0.125,
       "out": 0.5
     },
+    "gpt-6-luna-decisions": {
+      "in": 0.09999999999999999,
+      "cached": 0.01,
+      "cache_write": 0.125,
+      "out": 0.0
+    },
     "gpt-6-rosalind": {
       "in": 15.0,
       "cached": 1.5,
@@ -24825,6 +24831,12 @@
       "cached": 6.5e-05,
       "cache_write": 0.00013,
       "out": 0.00013
+    },
+    "jev": {
+      "in": 0.041999999999999996,
+      "cached": 0.020999999999999998,
+      "cache_write": 0.041999999999999996,
+      "out": 0.0
     },
     "jev-1.13.0": {
       "in": 0.041999999999999996,
@@ -32368,6 +32380,12 @@
       "cache_write": 0.09999999999999999,
       "out": 0.5
     },
+    "openai/gpt-6-luna-decisions": {
+      "in": 0.09999999999999999,
+      "cached": 0.01,
+      "cache_write": 0.125,
+      "out": 0.0
+    },
     "openai/gpt-6-sol": {
       "in": 2.0,
       "cached": 0.19999999999999998,
@@ -38200,6 +38218,24 @@
       "cache_write": 0.0,
       "out": 0.0
     },
+    "typesafe-ai/jev": {
+      "in": 0.041999999999999996,
+      "cached": 0.020999999999999998,
+      "cache_write": 0.041999999999999996,
+      "out": 0.0
+    },
+    "typesafe-ai/jev-1.13.0": {
+      "in": 0.041999999999999996,
+      "cached": 0.020999999999999998,
+      "cache_write": 0.041999999999999996,
+      "out": 0.0
+    },
+    "typesafe-ai/jev-1.14.0": {
+      "in": 0.041999999999999996,
+      "cached": 0.020999999999999998,
+      "cache_write": 0.041999999999999996,
+      "out": 0.0
+    },
     "typesafe/jev-1.13.0": {
       "in": 0.041999999999999996,
       "cached": 0.020999999999999998,
@@ -40384,6 +40420,12 @@
       "cache_write": 0.0,
       "out": 0.6
     },
+    "vercel_ai_gateway/openai/gpt-6-luna-decisions": {
+      "in": 0.09999999999999999,
+      "cached": 0.01,
+      "cache_write": 0.125,
+      "out": 0.0
+    },
     "vercel_ai_gateway/openai/o1": {
       "in": 15.0,
       "cached": 7.5,
@@ -40449,6 +40491,24 @@
       "cached": 1.0,
       "cache_write": 2.0,
       "out": 8.0
+    },
+    "vercel_ai_gateway/typesafe-ai/jev": {
+      "in": 0.041999999999999996,
+      "cached": 0.020999999999999998,
+      "cache_write": 0.041999999999999996,
+      "out": 0.0
+    },
+    "vercel_ai_gateway/typesafe-ai/jev-1.13.0": {
+      "in": 0.041999999999999996,
+      "cached": 0.020999999999999998,
+      "cache_write": 0.041999999999999996,
+      "out": 0.0
+    },
+    "vercel_ai_gateway/typesafe-ai/jev-1.14.0": {
+      "in": 0.041999999999999996,
+      "cached": 0.020999999999999998,
+      "cache_write": 0.041999999999999996,
+      "out": 0.0
     },
     "vercel_ai_gateway/vercel/v0-1.0-md": {
       "in": 3.0,
