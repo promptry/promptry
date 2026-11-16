@@ -1,6 +1,6 @@
 {
-  "version": "2026-11-15",
-  "updated": "2026-11-15T13:52:20Z",
+  "version": "2026-11-16",
+  "updated": "2026-11-16T15:36:20Z",
   "source": "litellm",
   "mode": "replace",
   "rates": {
@@ -188,6 +188,12 @@
       "in": 0.66,
       "cached": 0.33,
       "cache_write": 0.66,
+      "out": 1.0
+    },
+    "@cf/thinkingmachines/inkling-2-small": {
+      "in": 0.3,
+      "cached": 0.09999999999999999,
+      "cache_write": 0.3,
       "out": 1.0
     },
     "@cf/zai-org/glm-4.7-flash": {
@@ -11504,6 +11510,12 @@
       "in": 0.66,
       "cached": 0.33,
       "cache_write": 0.66,
+      "out": 1.0
+    },
+    "cloudflare/@cf/thinkingmachines/inkling-2-small": {
+      "in": 0.3,
+      "cached": 0.09999999999999999,
+      "cache_write": 0.3,
       "out": 1.0
     },
     "cloudflare/@cf/zai-org/glm-4.7-flash": {
@@ -23322,7 +23334,7 @@
     },
     "gpt-oss-safeguard-20b": {
       "in": 0.075,
-      "cached": 0.037,
+      "cached": 0.0375,
       "cache_write": 0.075,
       "out": 0.3
     },
@@ -24036,7 +24048,7 @@
     },
     "groq/openai/gpt-oss-safeguard-20b": {
       "in": 0.075,
-      "cached": 0.037,
+      "cached": 0.0375,
       "cache_write": 0.075,
       "out": 0.3
     },
@@ -24693,6 +24705,12 @@
       "cached": 0.16999999999999998,
       "cache_write": 1.0,
       "out": 4.05
+    },
+    "inkling-2-small": {
+      "in": 0.3,
+      "cached": 0.09999999999999999,
+      "cache_write": 0.3,
+      "out": 1.0
     },
     "inkling-small": {
       "in": 0.5,
@@ -30082,6 +30100,12 @@
       "cache_write": 0.25,
       "out": 1.0
     },
+    "nebius/thinkingmachines/Inkling-2-Small": {
+      "in": 0.3,
+      "cached": 0.06,
+      "cache_write": 0.3,
+      "out": 1.0
+    },
     "nebius/zai-org/GLM-5.1": {
       "in": 1.4,
       "cached": 0.26,
@@ -32436,7 +32460,7 @@
     },
     "openai/gpt-oss-safeguard-20b": {
       "in": 0.075,
-      "cached": 0.037,
+      "cached": 0.0375,
       "cache_write": 0.075,
       "out": 0.3
     },
