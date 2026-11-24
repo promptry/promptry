@@ -1,6 +1,6 @@
 {
-  "version": "2026-11-23",
-  "updated": "2026-11-23T17:58:00Z",
+  "version": "2026-11-24",
+  "updated": "2026-11-24T17:35:11Z",
   "source": "litellm",
   "mode": "replace",
   "rates": {
@@ -511,6 +511,12 @@
     "DeepSeek-V4.1-Flash-1017-Fast": {
       "in": 0.6,
       "cached": 0.014,
+      "cache_write": 0.6,
+      "out": 2.4
+    },
+    "DeepSeek-V4.1-Flash-1017-fast": {
+      "in": 0.6,
+      "cached": 0.012,
       "cache_write": 0.6,
       "out": 2.4
     },
@@ -1294,6 +1300,18 @@
       "cache_write": 0.658,
       "out": 1.1099999999999999
     },
+    "MiniMax-H3-Image": {
+      "in": 2.3,
+      "cached": 1.15,
+      "cache_write": 2.3,
+      "out": 0.0
+    },
+    "MiniMax-H3-Image-Highspeed": {
+      "in": 2.3,
+      "cached": 1.15,
+      "cache_write": 2.3,
+      "out": 0.0
+    },
     "MiniMax-M2": {
       "in": 0.3,
       "cached": 0.03,
@@ -2015,10 +2033,10 @@
       "out": 4.951
     },
     "Qwen/Qwen4-Max": {
-      "in": 1.0499999999999998,
-      "cached": 0.0525,
-      "cache_write": 1.0499999999999998,
-      "out": 3.15
+      "in": 1.5,
+      "cached": 0.075,
+      "cache_write": 1.5,
+      "out": 4.5
     },
     "Qwen2-1.5B-Instruct": {
       "in": 0.02,
@@ -2393,10 +2411,10 @@
       "out": 4.951
     },
     "Qwen4-Max": {
-      "in": 1.0499999999999998,
-      "cached": 0.0525,
-      "cache_write": 1.0499999999999998,
-      "out": 3.15
+      "in": 1.5,
+      "cached": 0.075,
+      "cache_write": 1.5,
+      "out": 4.5
     },
     "Ripple-65B-Preview": {
       "in": 0.19999999999999998,
@@ -21016,6 +21034,12 @@
       "cache_write": 0.6,
       "out": 2.4
     },
+    "deepseek-ai/DeepSeek-V4.1-Flash-1017-fast": {
+      "in": 0.6,
+      "cached": 0.012,
+      "cache_write": 0.6,
+      "out": 2.4
+    },
     "deepseek-ai/DeepSeek-V4.1-Flash-Fast": {
       "in": 0.6,
       "cached": 0.014,
@@ -27779,6 +27803,12 @@
       "out": 7.5
     },
     "gemini-4-neon": {
+      "in": 3.0,
+      "cached": 0.15,
+      "cache_write": 3.0,
+      "out": 15.0
+    },
+    "gemini-4-neon-cyber-permissive": {
       "in": 3.0,
       "cached": 0.15,
       "cache_write": 3.0,
@@ -36303,6 +36333,18 @@
       "cached": 0.15,
       "cache_write": 0.3,
       "out": 1.2
+    },
+    "minimax/MiniMax-H3-Image": {
+      "in": 2.3,
+      "cached": 1.15,
+      "cache_write": 2.3,
+      "out": 0.0
+    },
+    "minimax/MiniMax-H3-Image-Highspeed": {
+      "in": 2.3,
+      "cached": 1.15,
+      "cache_write": 2.3,
+      "out": 0.0
     },
     "minimax/MiniMax-M2": {
       "in": 0.3,
@@ -47345,10 +47387,10 @@
       "out": 0.47
     },
     "together_ai/Qwen/Qwen4-Max": {
-      "in": 1.0499999999999998,
-      "cached": 0.0525,
-      "cache_write": 1.0499999999999998,
-      "out": 3.15
+      "in": 1.5,
+      "cached": 0.075,
+      "cache_write": 1.5,
+      "out": 4.5
     },
     "together_ai/Salesforce/Llama-Rank-V1": {
       "in": 0.09999999999999999,
@@ -47409,6 +47451,12 @@
       "cached": 0.006,
       "cache_write": 0.3,
       "out": 1.2
+    },
+    "together_ai/deepseek-ai/DeepSeek-V4.1-Flash-1017-fast": {
+      "in": 0.6,
+      "cached": 0.012,
+      "cache_write": 0.6,
+      "out": 2.4
     },
     "together_ai/deepseek-pro-latest": {
       "in": 1.32,
@@ -50951,6 +50999,12 @@
       "out": 7.5
     },
     "vertex_ai/gemini-4-neon": {
+      "in": 3.0,
+      "cached": 0.15,
+      "cache_write": 3.0,
+      "out": 15.0
+    },
+    "vertex_ai/gemini-4-neon-cyber-permissive": {
       "in": 3.0,
       "cached": 0.15,
       "cache_write": 3.0,
