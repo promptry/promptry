@@ -1,6 +1,6 @@
 {
-  "version": "2026-11-25",
-  "updated": "2026-11-25T17:07:02Z",
+  "version": "2026-11-26",
+  "updated": "2026-11-26T16:48:00Z",
   "source": "litellm",
   "mode": "replace",
   "rates": {
@@ -3160,6 +3160,12 @@
       "cache_write": 0.15,
       "out": 0.5
     },
+    "accounts/fireworks/models/glm-5p3-spot": {
+      "in": 0.7,
+      "cached": 0.13,
+      "cache_write": 0.7,
+      "out": 2.2
+    },
     "accounts/fireworks/models/gpt-oss-120b": {
       "in": 0.15,
       "cached": 0.015,
@@ -3201,6 +3207,12 @@
       "cached": 0.16999999999999998,
       "cache_write": 1.0,
       "out": 4.05
+    },
+    "accounts/fireworks/models/inkling-2-small": {
+      "in": 0.3,
+      "cached": 0.03,
+      "cache_write": 0.3,
+      "out": 1.0
     },
     "accounts/fireworks/models/internvl3-38b": {
       "in": 0.8999999999999999,
@@ -4390,11 +4402,23 @@
       "cache_write": 2.0999999999999996,
       "out": 6.6000000000000005
     },
+    "accounts/fireworks/routers/glm-5p3-flash-flex": {
+      "in": 0.075,
+      "cached": 0.015,
+      "cache_write": 0.075,
+      "out": 0.25
+    },
     "accounts/fireworks/routers/glm-5p3-flash-us": {
       "in": 0.22499999999999998,
       "cached": 0.045,
       "cache_write": 0.22499999999999998,
       "out": 0.75
+    },
+    "accounts/fireworks/routers/glm-5p3-flex": {
+      "in": 0.7,
+      "cached": 0.13,
+      "cache_write": 0.7,
+      "out": 2.2
     },
     "accounts/fireworks/routers/glm-5p3-spot": {
       "in": 0.7,
@@ -4461,6 +4485,12 @@
       "cached": 0.44999999999999996,
       "cache_write": 4.5,
       "out": 22.5
+    },
+    "accounts/fireworks/routers/kimi-k3p1-pro-ultrafast": {
+      "in": 5.0,
+      "cached": 0.5,
+      "cache_write": 5.0,
+      "out": 25.0
     },
     "accounts/fireworks/routers/kimi-k3p1-pro-us": {
       "in": 2.5,
@@ -25732,6 +25762,12 @@
       "cache_write": 0.15,
       "out": 0.5
     },
+    "fireworks_ai/accounts/fireworks/models/glm-5p3-spot": {
+      "in": 0.7,
+      "cached": 0.13,
+      "cache_write": 0.7,
+      "out": 2.2
+    },
     "fireworks_ai/accounts/fireworks/models/gpt-oss-120b": {
       "in": 0.15,
       "cached": 0.015,
@@ -25773,6 +25809,12 @@
       "cached": 0.16999999999999998,
       "cache_write": 1.0,
       "out": 4.05
+    },
+    "fireworks_ai/accounts/fireworks/models/inkling-2-small": {
+      "in": 0.3,
+      "cached": 0.03,
+      "cache_write": 0.3,
+      "out": 1.0
     },
     "fireworks_ai/accounts/fireworks/models/internvl3-38b": {
       "in": 0.8999999999999999,
@@ -26962,11 +27004,23 @@
       "cache_write": 2.0999999999999996,
       "out": 6.6000000000000005
     },
+    "fireworks_ai/accounts/fireworks/routers/glm-5p3-flash-flex": {
+      "in": 0.075,
+      "cached": 0.015,
+      "cache_write": 0.075,
+      "out": 0.25
+    },
     "fireworks_ai/accounts/fireworks/routers/glm-5p3-flash-us": {
       "in": 0.22499999999999998,
       "cached": 0.045,
       "cache_write": 0.22499999999999998,
       "out": 0.75
+    },
+    "fireworks_ai/accounts/fireworks/routers/glm-5p3-flex": {
+      "in": 0.7,
+      "cached": 0.13,
+      "cache_write": 0.7,
+      "out": 2.2
     },
     "fireworks_ai/accounts/fireworks/routers/glm-5p3-spot": {
       "in": 0.7,
@@ -27033,6 +27087,12 @@
       "cached": 0.44999999999999996,
       "cache_write": 4.5,
       "out": 22.5
+    },
+    "fireworks_ai/accounts/fireworks/routers/kimi-k3p1-pro-ultrafast": {
+      "in": 5.0,
+      "cached": 0.5,
+      "cache_write": 5.0,
+      "out": 25.0
     },
     "fireworks_ai/accounts/fireworks/routers/kimi-k3p1-pro-us": {
       "in": 2.5,
@@ -29224,11 +29284,23 @@
       "cache_write": 0.15,
       "out": 0.5
     },
+    "glm-5p3-flash-flex": {
+      "in": 0.075,
+      "cached": 0.015,
+      "cache_write": 0.075,
+      "out": 0.25
+    },
     "glm-5p3-flash-us": {
       "in": 0.22499999999999998,
       "cached": 0.045,
       "cache_write": 0.22499999999999998,
       "out": 0.75
+    },
+    "glm-5p3-flex": {
+      "in": 0.7,
+      "cached": 0.13,
+      "cache_write": 0.7,
+      "out": 2.2
     },
     "glm-5p3-spot": {
       "in": 0.7,
@@ -33609,6 +33681,12 @@
       "cached": 0.19999999999999998,
       "cache_write": 2.0,
       "out": 10.0
+    },
+    "kimi-k3p1-pro-ultrafast": {
+      "in": 5.0,
+      "cached": 0.5,
+      "cache_write": 5.0,
+      "out": 25.0
     },
     "kimi-k3p1-pro-us": {
       "in": 2.5,
