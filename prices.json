@@ -1,6 +1,6 @@
 {
-  "version": "2026-11-27",
-  "updated": "2026-11-27T16:33:34Z",
+  "version": "2026-11-28",
+  "updated": "2026-11-28T15:26:08Z",
   "source": "litellm",
   "mode": "replace",
   "rates": {
@@ -19102,6 +19102,12 @@
       "cache_write": 2.49998,
       "out": 12.49997
     },
+    "databricks-gemini-nano-banana-2-1": {
+      "in": 1.87502,
+      "cached": 0.18753,
+      "cache_write": 1.87502,
+      "out": 9.375029999999999
+    },
     "databricks-gemma-3-12b": {
       "in": 0.15001,
       "cached": 0.15001,
@@ -19319,6 +19325,12 @@
       "out": 15.00002
     },
     "databricks-kimi-k3-1-pro": {
+      "in": 1.99997,
+      "cached": 0.19999,
+      "cache_write": 1.99997,
+      "out": 9.99999
+    },
+    "databricks-kimi-k3-1-pro-fast": {
       "in": 1.99997,
       "cached": 0.19999,
       "cache_write": 1.99997,
@@ -19648,6 +19660,12 @@
       "cache_write": 2.49998,
       "out": 12.49997
     },
+    "databricks/databricks-gemini-nano-banana-2-1": {
+      "in": 1.87502,
+      "cached": 0.18753,
+      "cache_write": 1.87502,
+      "out": 9.375029999999999
+    },
     "databricks/databricks-gemma-3-12b": {
       "in": 0.15001,
       "cached": 0.15001,
@@ -19870,6 +19888,12 @@
       "cache_write": 1.99997,
       "out": 9.99999
     },
+    "databricks/databricks-kimi-k3-1-pro-fast": {
+      "in": 1.99997,
+      "cached": 0.19999,
+      "cache_write": 1.99997,
+      "out": 9.99999
+    },
     "databricks/databricks-llama-4-maverick": {
       "in": 0.5000100000000001,
       "cached": 0.5000100000000001,
@@ -19989,6 +20013,12 @@
       "cached": 0.09373000000000001,
       "cache_write": 2.34374,
       "out": 9.375029999999999
+    },
+    "databricks/system.ai.gemini-4-neon": {
+      "in": 3.0,
+      "cached": 0.15,
+      "cache_write": 3.0,
+      "out": 15.0
     },
     "databricks/system.ai.gpt-6-2-astra": {
       "in": 8.00002,
@@ -47001,6 +47031,12 @@
       "cached": 0.09373000000000001,
       "cache_write": 2.34374,
       "out": 9.375029999999999
+    },
+    "system.ai.gemini-4-neon": {
+      "in": 3.0,
+      "cached": 0.15,
+      "cache_write": 3.0,
+      "out": 15.0
     },
     "system.ai.gpt-6-2-astra": {
       "in": 8.00002,
